@@ -1,0 +1,24 @@
+.nav-position {
+  width: 100%;
+  top: 0;
+}
+.nav-position .nav-cont {
+  width: 50%;
+  margin: 5px auto;
+}
+.nav-position .nav-cont .menu {
+  background-color: rgba(255, 255, 255, 0.6);
+  width: 100%;
+  margin: auto;
+}
+.nav-position .nav-cont .menu .lista {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-around;
+}
+.nav-position .nav-cont .menu .lista a {
+  font-size: 16px;
+  color: black;
+}
+
+/*# sourceMappingURL=Navbar.css.map */
