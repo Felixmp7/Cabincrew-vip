@@ -10,13 +10,13 @@ const Navbar = () => {
 			<div className="nav-cont">
 				<nav className="menu">
 					<ul className="lista">
-						<li><a>Home</a></li>
-						<li><a>Nosotros</a></li>
-						<li><a>Equipo</a></li>
-						<li><a>Servicios</a></li>
-						<li><a>Galeria</a></li>
-						<li><a>Promociones</a></li>
-						<li><a>Contacto</a></li>
+						<li><p>Home</p></li>
+						<li><p>Nosotros</p></li>
+						<li><p>Equipo</p></li>
+						<li><p>Servicios</p></li>
+						<li><p>Galeria</p></li>
+						<li><p>Promociones</p></li>
+						<li><p>Contacto</p></li>
 					</ul>
 				</nav>
 			</div>
