@@ -4,7 +4,7 @@
   top: 0;
 }
 .nav-position .nav-cont {
-  width: 50%;
+  width: 700px;
   margin: 5px auto;
 }
 .nav-position .nav-cont .menu {
@@ -17,17 +17,17 @@
   flex-flow: row wrap;
   justify-content: space-around;
 }
-.nav-position .nav-cont .menu .lista p {
-  font-size: 16px;
-  color: black;
-  margin: 0 auto;
-}
 .nav-position .nav-cont .menu .lista li {
   padding: 0 10px;
 }
 .nav-position .nav-cont .menu .lista li:hover {
   background-color: rgba(1, 1, 1, 0.07);
   cursor: pointer;
+}
+.nav-position .nav-cont .menu .lista p {
+  font-size: 16px;
+  color: black;
+  margin: 0 auto;
 }
 
 /*# sourceMappingURL=Navbar.css.map */
