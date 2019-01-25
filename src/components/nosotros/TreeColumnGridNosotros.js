@@ -7,6 +7,7 @@ import Objetivos from './grid-elements/Objetivos'
 import Estrategia from './grid-elements/Estrategia'
 import Metas from './grid-elements/Metas'
 import Mision from './grid-elements/Mision'
+//import Tarjeta from './grid-elements/Card';
 
 const styles = theme => ({
   root: {
