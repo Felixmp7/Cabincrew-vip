@@ -1,16 +1,16 @@
 import React from 'react';
-import success from '../../media/iconos/success.png';
-import './../../styles/nosotros/mision/Mision.css'
+import list from '../../../media/iconos/list.png';
+import './../../../styles/nosotros/mision/Mision.css'
 
-const Mision = () => {
+const Objetivos = () => {
 	return (
-		<div className="cont-mision">
-			<div className="card">
+		<div className="cont">
+			<div className="card tarjeta">
 				<div className="card-image waves-effect waves-block waves-light cont-image">
-					<img className="activator" src={success} alt="Success"/>
+					<img className="activator" src={list} alt="list"/>
 				</div>
 				<div className="card-content">
-					<span className="card-title activator grey-text text-darken-4">Mision<i className="material-icons right">more_vert</i></span>
+					<span className="card-title activator grey-text text-darken-4">Objetivos<i className="material-icons right">more_vert</i></span>
 				</div>
 				<div className="card-reveal">
 					<span className="card-title grey-text text-darken-4">Card Title<i className="material-icons right">close</i></span>
@@ -21,4 +21,4 @@ const Mision = () => {
 	);
 }
 
-export default Mision;
+export default Objetivos;

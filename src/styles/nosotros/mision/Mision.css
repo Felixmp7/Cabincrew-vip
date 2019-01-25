@@ -1,16 +1,16 @@
-.cont-mision {
+.cont {
   width: 100%;
 }
-.cont-mision .card {
-  width: 400px;
+.cont .tarjeta {
+  width: 300px;
   margin: auto;
 }
-.cont-mision .card .cont-image {
+.cont .tarjeta .cont-image {
   padding: 20px;
-  width: 400px;
+  width: 250px;
   margin: auto auto;
 }
-.cont-mision .card .cont-image img {
+.cont .tarjeta .cont-image img {
   width: 100%;
 }
 
