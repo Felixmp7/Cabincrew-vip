@@ -2,7 +2,7 @@
   width: 100%;
 }
 .cont .tarjeta {
-  width: 300px;
+  width: 350px;
   margin: auto;
 }
 .cont .tarjeta .cont-image {
@@ -12,6 +12,10 @@
 }
 .cont .tarjeta .cont-image img {
   width: 100%;
+}
+.cont .tarjeta .card-content {
+  text-align: center;
+  background: #f0f0f0;
 }
 
 /*# sourceMappingURL=Mision.css.map */

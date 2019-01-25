@@ -10,7 +10,7 @@ const Estrategia = () => {
 					<img className="activator" src={options} alt="options"/>
 				</div>
 				<div className="card-content">
-					<span className="card-title activator grey-text text-darken-4">Estrategia<i className="material-icons right">more_vert</i></span>
+					<span className="card-title grey-text text-darken-4">Estrategia<i className="material-icons right">more_vert</i></span>
 				</div>
 				<div className="card-reveal">
 					<span className="card-title grey-text text-darken-4">Card Title<i className="material-icons right">close</i></span>
