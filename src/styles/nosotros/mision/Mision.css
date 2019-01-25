@@ -1,0 +1,17 @@
+.cont-mision {
+  width: 100%;
+}
+.cont-mision .card {
+  width: 400px;
+  margin: auto;
+}
+.cont-mision .card .cont-image {
+  padding: 20px;
+  width: 400px;
+  margin: auto auto;
+}
+.cont-mision .card .cont-image img {
+  width: 100%;
+}
+
+/*# sourceMappingURL=Mision.css.map */
