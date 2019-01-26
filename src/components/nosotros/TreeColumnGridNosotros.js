@@ -7,7 +7,7 @@ import Objetivos from './grid-elements/Objetivos'
 import Estrategia from './grid-elements/Estrategia'
 import Metas from './grid-elements/Metas'
 import Mision from './grid-elements/Mision'
-//import Tarjeta from './grid-elements/Card';
+import Tarjeta from './grid-elements/Card';
 
 const styles = theme => ({
   root: {
@@ -22,7 +22,7 @@ class GridAbout extends React.Component {
     return (
       <Grid container direction="row" justify="center" alignItems="center" className={classes.root} spacing={0}>
         <Grid item md={3} xs={8}>
-          <Mision />
+          <Tarjeta />
         </Grid>
         <Grid item md={3} xs={8}>
           <Objetivos />

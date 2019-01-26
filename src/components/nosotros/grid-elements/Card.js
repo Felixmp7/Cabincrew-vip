@@ -9,25 +9,31 @@ import CardActions from '@material-ui/core/CardActions';
 import Collapse from '@material-ui/core/Collapse';
 import IconButton from '@material-ui/core/IconButton';
 import Typography from '@material-ui/core/Typography';
-import FavoriteIcon from '@material-ui/icons/Favorite';
-import ShareIcon from '@material-ui/icons/Share';
 import ExpandMoreIcon from '@material-ui/icons/ExpandMore';
-import trophy from '../../../media/iconos/trophy.png';
+import success from '../../../media/iconos/success.png';
 
 const styles = theme => ({
   card: {
     maxWidth: 350,
   },
   media: {
-    height: 0,
-    paddingTop: '56.25%', // 16:9
+    width: 200,
+    margin: '20px auto',
+    paddingTop: '57%', // 16:9
   },
   actions: {
     display: 'flex',
+    backgroundColor: '#f0f0f0',
+    flexDirection: 'row',
+    justifyContent: 'flex-end',
+  },
+  title: {
+    marginRight: 65,
+    fontSize: 28,
   },
   expand: {
     transform: 'rotate(0deg)',
-    marginLeft: 'auto',
+    //marginLeft: 'auto',
     transition: theme.transitions.create('transform', {
       duration: theme.transitions.duration.shortest,
     }),
@@ -51,22 +57,17 @@ class Tarjeta extends React.Component {
       <Card className={classes.card}>
         <CardMedia
           className={classes.media}
-          image={trophy}
-          title="Paella dish"
+          image={success}
+          title="success"
         />
-        <CardContent>
-          <Typography component="p">
-            This impressive paella is a perfect party dish and a fun meal to cook together with your
-            guests. Add 1 cup of frozen peas along with the mussels, if you like.
-          </Typography>
-        </CardContent>
+
         <CardActions className={classes.actions} disableActionSpacing>
-          <IconButton aria-label="Add to favorites">
-            <FavoriteIcon />
-          </IconButton>
-          <IconButton aria-label="Share">
-            <ShareIcon />
-          </IconButton>
+          <CardContent className={classes.title}>
+            <span className="card-title">
+              Mision
+            </span>
+          </CardContent>
+
           <IconButton
             className={classnames(classes.expand, {
               [classes.expandOpen]: this.state.expanded,
@@ -80,28 +81,28 @@ class Tarjeta extends React.Component {
         </CardActions>
         <Collapse in={this.state.expanded} timeout="auto" unmountOnExit>
           <CardContent>
-            <Typography paragraph>Method:</Typography>
+            <Typography paragraph>CABIN CREW TRAINING AND V.I.P. SERVICES C.A, 
+            tiene como Misión principal la de planificar, dirigir, coordinar, 
+            ejecutar y supervisar actividades educativas para el desarrollo e 
+            implementación de Cursos para la Formación de Profesionales y Técnicos
+             del medio Aeronáutico.</Typography>
             <Typography paragraph>
-              Heat 1/2 cup of the broth in a pot until simmering, add saffron and set aside for 10
-              minutes.
+              Así como también todas las actividades relacionadas con la actualización y
+               el mejoramiento continuo de dicho personal con el objeto de integrar y mantener
+                un grupo humano Profesional que apoye y de soporte sólido al desarrollo de la 
+                Aviación Nacional e Internacional y de esta manera mantenernos en nuestra posicion
+                 actual como la mejor opción de Centros de Instrucción en Capacitación de 
+                 Profesionales Aeronáuticos.
             </Typography>
             <Typography paragraph>
-              Heat oil in a (14- to 16-inch) paella pan or a large, deep skillet over medium-high
-              heat. Add chicken, shrimp and chorizo, and cook, stirring occasionally until lightly
-              browned, 6 to 8 minutes. Transfer shrimp to a large plate and set aside, leaving
-              chicken and chorizo in the pan. Add pimentón, bay leaves, garlic, tomatoes, onion,
-              salt and pepper, and cook, stirring often until thickened and fragrant, about 10
-              minutes. Add saffron broth and remaining 4 1/2 cups chicken broth; bring to a boil.
+              Para el fiel cumplimiento de su Misión se apoya en las actividades que:
             </Typography>
             <Typography paragraph>
-              Add rice and stir very gently to distribute. Top with artichokes and peppers, and cook
-              without stirring, until most of the liquid is absorbed, 15 to 18 minutes. Reduce heat
-              to medium-low, add reserved shrimp and mussels, tucking them down into the rice, and
-              cook again without stirring, until mussels have opened and rice is just tender, 5 to 7
-              minutes more. (Discard any mussels that don’t open.)
-            </Typography>
-            <Typography>
-              Set aside off of the heat to let rest for 10 minutes, and then serve.
+              Describen el futuro deseable de la empresa.
+              Proveen una guía direccional, adaptable a las circunstancias del momento, 
+                para alcanzar los fines y objetivos de la Empresa.
+              Sean cuantificables y como tales, capaces de ser analizadas y evaluadas.
+              Se pueden fijar con plazos y limites funcionales.
             </Typography>
           </CardContent>
         </Collapse>
