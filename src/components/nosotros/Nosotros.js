@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import TreeColumnGridNosotros from './TreeColumnGridNosotros';
+import GridNosotros from './GridNosotros';
 import './../../styles/nosotros/Nosotros.css';
 
 class Nosotros extends Component {
@@ -10,7 +10,7 @@ class Nosotros extends Component {
 					<h3 className="titulo">Nosotros</h3>
 				</div>
 				<div className="cont-columnas">
-					<TreeColumnGridNosotros />
+					<GridNosotros />
 				</div>
 			</div>
 		);
