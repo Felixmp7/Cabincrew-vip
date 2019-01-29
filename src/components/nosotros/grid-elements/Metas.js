@@ -14,7 +14,7 @@ import trophy from '../../../media/iconos/trophy.png';
 
 const styles = theme => ({
   card: {
-    maxWidth: 350,
+    maxWidth: 400,
   },
   media: {
     width: 200,
@@ -40,6 +40,9 @@ const styles = theme => ({
   },
   expandOpen: {
     transform: 'rotate(180deg)',
+  },
+  texto: {
+    fontSize: 16,
   },
 });
 
@@ -81,45 +84,25 @@ class Metas extends React.Component {
         </CardActions>
         <Collapse in={this.state.expanded} timeout="auto" unmountOnExit>
           <CardContent>
-            <Typography paragraph>Con la finalidad de evaluar el cumplimiento de los objetivos descritos, 
-            la Empresa se ha propuesto cumplir las siguientes metas:</Typography>
-            <Typography paragraph>
-              Proporcionar la mejor calidad educativa para la Formación de los diferentes técnicos 
-              Aeronauticos.
-
-              Captar el mayor número de aspirantes a ser Capacitados como Tripulantes de Cabina.
-
-              Mantener actualizados los cursos implantados.
-
-              Desarrollar nuevos cursos como: Oficial de Operaciones o 
-              Despachador de Vuelo, Ampliar cada día nuestro pensum 
-              ofrecido en el curso de Inglés Técnico Aeronáutico en 
-              diferentes niveles y seguir ofreciendo los cursos de 
-              Mejoramiento Profesional, especialmente en el área de 
-              Seguridad Operacional, Factores Humanos y Seguridad e 
-              la Aviación Civil (AVSEC), SMS, etc.
-
-              Obtención del personal de instructores de tierra y aire 
-              con el mejor estándar posible para lograr con esto, la 
-              motivación necesaria y ofrecer cursos de estandarización 
-              y recurrencia, aplicando el mayor esfuerzo para obtener 
-              la mejor calidad en los cursos ofrecidos.
-
-              Definir la estructura organizativa para poder cumplir 
-              con los objetivos trazados.
-
-              Mantener confortable nuestros espacios físicos, los 
-              cuales son necesarios para el desarrollo de las 
-              actividades en forma cómoda.
-
-              Efectuar los contactos necesarios con las instituciones 
-              Nacionales e Internacionales para el apoyo de todas las 
-              actividades de la Empresa en todos o en algunos programas 
-              de Instrucción.
-
-              Mantener la vigencia de nuestra Certificación, para ofrecer 
-              la continuidad en la programación de los cursos.
-            </Typography>
+            <div>
+              <ul className={classes.texto}>
+                <li>Proporcionar la mejor calidad educativa para la Formación de los diferentes técnicos 
+                  Aeronauticos.</li>
+                <li>Captar el mayor número de aspirantes a ser Capacitados como Tripulantes de Cabina.</li>
+                <li>Mantener actualizados los cursos implantados.</li>
+                <li>Desarrollar nuevos cursos.</li>
+                <li>Obtención del personal de instructores de tierra y aire 
+                  con el mejor estándar posible.</li>
+                <li>Definir la estructura organizativa para poder cumplir 
+                  con los objetivos trazados.</li>
+                <li>Mantener confortable nuestros espacios físicos.</li>
+                <li>Efectuar los contactos necesarios con las instituciones 
+                  Nacionales e Internacionales para el apoyo de todas las 
+                  actividades de la Empresa en todos o en algunos programas 
+                  de Instrucción.</li>
+                <li>Mantener la vigencia de nuestra Certificación.</li>
+              </ul>
+            </div>
           </CardContent>
         </Collapse>
       </Card>
