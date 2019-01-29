@@ -81,28 +81,44 @@ class Metas extends React.Component {
         </CardActions>
         <Collapse in={this.state.expanded} timeout="auto" unmountOnExit>
           <CardContent>
-            <Typography paragraph>CABIN CREW TRAINING AND V.I.P. SERVICES C.A, 
-            tiene como Misión principal la de planificar, dirigir, coordinar, 
-            ejecutar y supervisar actividades educativas para el desarrollo e 
-            implementación de Cursos para la Formación de Profesionales y Técnicos
-             del medio Aeronáutico.</Typography>
+            <Typography paragraph>Con la finalidad de evaluar el cumplimiento de los objetivos descritos, 
+            la Empresa se ha propuesto cumplir las siguientes metas:</Typography>
             <Typography paragraph>
-              Así como también todas las actividades relacionadas con la actualización y
-               el mejoramiento continuo de dicho personal con el objeto de integrar y mantener
-                un grupo humano Profesional que apoye y de soporte sólido al desarrollo de la 
-                Aviación Nacional e Internacional y de esta manera mantenernos en nuestra posicion
-                 actual como la mejor opción de Centros de Instrucción en Capacitación de 
-                 Profesionales Aeronáuticos.
-            </Typography>
-            <Typography paragraph>
-              Para el fiel cumplimiento de su Misión se apoya en las actividades que:
-            </Typography>
-            <Typography paragraph>
-              Describen el futuro deseable de la empresa.
-              Proveen una guía direccional, adaptable a las circunstancias del momento, 
-                para alcanzar los fines y objetivos de la Empresa.
-              Sean cuantificables y como tales, capaces de ser analizadas y evaluadas.
-              Se pueden fijar con plazos y limites funcionales.
+              Proporcionar la mejor calidad educativa para la Formación de los diferentes técnicos 
+              Aeronauticos.
+
+              Captar el mayor número de aspirantes a ser Capacitados como Tripulantes de Cabina.
+
+              Mantener actualizados los cursos implantados.
+
+              Desarrollar nuevos cursos como: Oficial de Operaciones o 
+              Despachador de Vuelo, Ampliar cada día nuestro pensum 
+              ofrecido en el curso de Inglés Técnico Aeronáutico en 
+              diferentes niveles y seguir ofreciendo los cursos de 
+              Mejoramiento Profesional, especialmente en el área de 
+              Seguridad Operacional, Factores Humanos y Seguridad e 
+              la Aviación Civil (AVSEC), SMS, etc.
+
+              Obtención del personal de instructores de tierra y aire 
+              con el mejor estándar posible para lograr con esto, la 
+              motivación necesaria y ofrecer cursos de estandarización 
+              y recurrencia, aplicando el mayor esfuerzo para obtener 
+              la mejor calidad en los cursos ofrecidos.
+
+              Definir la estructura organizativa para poder cumplir 
+              con los objetivos trazados.
+
+              Mantener confortable nuestros espacios físicos, los 
+              cuales son necesarios para el desarrollo de las 
+              actividades en forma cómoda.
+
+              Efectuar los contactos necesarios con las instituciones 
+              Nacionales e Internacionales para el apoyo de todas las 
+              actividades de la Empresa en todos o en algunos programas 
+              de Instrucción.
+
+              Mantener la vigencia de nuestra Certificación, para ofrecer 
+              la continuidad en la programación de los cursos.
             </Typography>
           </CardContent>
         </Collapse>
