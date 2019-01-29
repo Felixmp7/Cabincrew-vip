@@ -14,7 +14,7 @@ import options from '../../../media/iconos/options.png';
 
 const styles = theme => ({
   card: {
-    maxWidth: 350,
+    maxWidth: 400,
   },
   media: {
     width: 200,
