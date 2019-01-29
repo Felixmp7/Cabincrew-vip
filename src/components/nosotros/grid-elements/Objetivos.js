@@ -14,7 +14,7 @@ import list from '../../../media/iconos/list.png';
 
 const styles = theme => ({
   card: {
-    maxWidth: 350,
+    maxWidth: 400,
   },
   media: {
     width: 200,
