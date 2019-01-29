@@ -81,28 +81,35 @@ class Estrategia extends React.Component {
         </CardActions>
         <Collapse in={this.state.expanded} timeout="auto" unmountOnExit>
           <CardContent>
-            <Typography paragraph>CABIN CREW TRAINING AND V.I.P. SERVICES C.A, 
-            tiene como Misión principal la de planificar, dirigir, coordinar, 
-            ejecutar y supervisar actividades educativas para el desarrollo e 
-            implementación de Cursos para la Formación de Profesionales y Técnicos
-             del medio Aeronáutico.</Typography>
-            <Typography paragraph>
-              Así como también todas las actividades relacionadas con la actualización y
-               el mejoramiento continuo de dicho personal con el objeto de integrar y mantener
-                un grupo humano Profesional que apoye y de soporte sólido al desarrollo de la 
-                Aviación Nacional e Internacional y de esta manera mantenernos en nuestra posicion
-                 actual como la mejor opción de Centros de Instrucción en Capacitación de 
-                 Profesionales Aeronáuticos.
+            <Typography paragraph>Para el cabal cumplimiento de su Misión, la empresa se ha fijado 
+              las siguientes estrategias:
+
+              La definición de una organización capaz de definir las reglas y programas necesarios 
+              para garantizar la completa operatividad de las mismas.
+              La estructura jerarquía que permita el manejo de información y la adecuada toma de 
+              decisiones.
+              El establecimiento de objetivos y metas.
+              Una continua supervisión de la organización, planes y programas, con el objeto de 
+              mantener los más altos niveles de estándares en todas las actividades educativas, 
+              para lograr y mantener la mejor calidad en los cursos que se ofrecen.
             </Typography>
             <Typography paragraph>
-              Para el fiel cumplimiento de su Misión se apoya en las actividades que:
-            </Typography>
-            <Typography paragraph>
-              Describen el futuro deseable de la empresa.
-              Proveen una guía direccional, adaptable a las circunstancias del momento, 
-                para alcanzar los fines y objetivos de la Empresa.
-              Sean cuantificables y como tales, capaces de ser analizadas y evaluadas.
-              Se pueden fijar con plazos y limites funcionales.
+              Estas estrategias conllevan la definición de una estructura funcional centralizada 
+              la cual pueda operar eficientemente con un limitado número de recursos humanos que 
+              se enriquecerá con personal capacitado, dependiendo del volumen de las actividades 
+              académicas en las que se vea envuelta, en función de que se maneje un adecuado clima 
+              organizacional, sistemas y procedimientos requeridos para el desarrollo de sus actividades 
+              para el logro de los objetivos y metas establecidas.
+
+              Tal como lo permiten las Regulaciones Aeronauticas Venezolanas actuales 
+              CABIN CREW TRAINING AND V.I.P SERVICES C.A, tiene la opción de crear núcleos en algunas 
+              regiones del país donde considere conveniente el desarrollo Aeronáutico de la propia 
+              región en particular y la del país en forma general.
+
+              CABIN CREW TRAINING AND V.I.P SERVICES C.A, como Centro de Instrucción Aeronáutica del 
+              país, mantiene una vigilancia constante sobre su organización, con el objeto de garantizar 
+              el uso óptimo de los recursos humanos y materiales para cumplir cabalmente con las metas y 
+              objetivos trazados.
             </Typography>
           </CardContent>
         </Collapse>
