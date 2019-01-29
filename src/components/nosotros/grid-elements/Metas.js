@@ -19,7 +19,7 @@ const styles = theme => ({
   media: {
     width: 200,
     margin: '20px auto',
-    paddingTop: '57%', // 16:9
+    paddingTop: '53%', // 16:9
   },
   actions: {
     display: 'flex',
