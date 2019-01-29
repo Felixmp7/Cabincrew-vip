@@ -81,28 +81,37 @@ class Objetivos extends React.Component {
         </CardActions>
         <Collapse in={this.state.expanded} timeout="auto" unmountOnExit>
           <CardContent>
-            <Typography paragraph>CABIN CREW TRAINING AND V.I.P. SERVICES C.A, 
-            tiene como Misión principal la de planificar, dirigir, coordinar, 
-            ejecutar y supervisar actividades educativas para el desarrollo e 
-            implementación de Cursos para la Formación de Profesionales y Técnicos
-             del medio Aeronáutico.</Typography>
+            <Typography paragraph>Los objetivos que se ha planteado la Empresa para el 
+            corto y mediano plazo son los siguientes:</Typography>
             <Typography paragraph>
-              Así como también todas las actividades relacionadas con la actualización y
-               el mejoramiento continuo de dicho personal con el objeto de integrar y mantener
-                un grupo humano Profesional que apoye y de soporte sólido al desarrollo de la 
-                Aviación Nacional e Internacional y de esta manera mantenernos en nuestra posicion
-                 actual como la mejor opción de Centros de Instrucción en Capacitación de 
-                 Profesionales Aeronáuticos.
-            </Typography>
-            <Typography paragraph>
-              Para el fiel cumplimiento de su Misión se apoya en las actividades que:
-            </Typography>
-            <Typography paragraph>
-              Describen el futuro deseable de la empresa.
-              Proveen una guía direccional, adaptable a las circunstancias del momento, 
-                para alcanzar los fines y objetivos de la Empresa.
-              Sean cuantificables y como tales, capaces de ser analizadas y evaluadas.
-              Se pueden fijar con plazos y limites funcionales.
+              Desarrollar cursos para la formación de Técnicos Aeronáuticos en las especialidades más 
+              importantes y que se consideren de mayor necesidad para el desarrollo de la Industria 
+              Aeronáutica Nacional e Internacional.
+
+              Mantenerse como empresa líder del país en la Formación de Tripulantes de Cabina y de 
+              Instructores Aeronáuticos.
+              Estructurar cursos de mejoramiento profesional en diferentes áreas y que en forma 
+              periódica puedan ser ofrecidos a todas las empresas de aviación que participan en 
+              la actividad diaria del país y del mundo.
+              Garantizar el mejor aprovechamiento de los recursos con los cuales cuenta.
+
+              Dotar a la Empresa con los recursos técnicos necesarios para el mejor desarrollo 
+              de sus actividades.
+
+              Desarrollar Habilitaciones de Equipos Aeronauticos, nuevos cursos técnicos y todas
+               aquellas actividades educativas que se consideren importantes para ampliar y solidificar 
+               la actividad Aeronáutica en el país y en los paises que lo requieran.
+
+              Mantener y ampliar las asesorías técnicas a las empresas del ramo en el ámbito nacional 
+              e Internacional.
+
+              Internacionalizar la Empresa mediante la captación de estudiantes de otros países, 
+              aprovechando los factores de nuestra economía que permitan ofrecer buenas oportunidades 
+              de estudio en el país.
+
+              Mantener vigilancia sobre la organización y producir los cambios que sean 
+              necesarios en la estructura, sistemas, normas y procedimientos para buscar 
+              un desarrollo óptimo de sus actividades.
             </Typography>
           </CardContent>
         </Collapse>
