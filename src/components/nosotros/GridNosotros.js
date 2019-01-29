@@ -8,19 +8,19 @@ import './../../styles/nosotros/Nosotros.css';
 const GridNosotros = () => {
   return (
         <div className="row">
-          <div className="col s8 m3 tarjeta">
+          <div className="col m10 l3">
             <Mision/>
           </div>
 
-          <div className="col s8 m3 tarjeta">
+          <div className="col m10 l3">
             <Objetivos/>
           </div>
 
-          <div className="col s8 m3 tarjeta">
+          <div className="col m10 l3">
             <Estrategia/>
           </div>
 
-          <div className="col s8 m3 tarjeta">
+          <div className="col m10 l3">
             <Metas/>
           </div>
         </div>

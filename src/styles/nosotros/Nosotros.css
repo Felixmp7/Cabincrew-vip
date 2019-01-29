@@ -20,8 +20,12 @@
   margin: 200px 0 300px 0;
 }
 
-.tarjeta {
-  border: 2px solid white;
+.row {
+  padding: 20px;
+}
+.row .col {
+  padding: 0px;
+  padding-left: 15px;
 }
 
 /*# sourceMappingURL=Nosotros.css.map */
