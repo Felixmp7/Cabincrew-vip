@@ -28,6 +28,7 @@ const styles = theme => ({
       easing: theme.transitions.easing.sharp,
       duration: theme.transitions.duration.leavingScreen,
     }),
+    backgroundColor: '#5f1014',
   },
   appBarShift: {
     width: `calc(100% - ${drawerWidth}px)`,
@@ -78,6 +79,7 @@ class BurgerMenu extends React.Component {
     const { open } = this.state;
 
     return (
+      /*_________________________ Menu Cerrado _______________________________*/
       <div className={classes.root}>
         <CssBaseline />
         <AppBar
@@ -86,6 +88,8 @@ class BurgerMenu extends React.Component {
             [classes.appBarShift]: open,
           })}
         >
+
+        /*_________________________ Burger Icon _______________________________*/
           <Toolbar disableGutters={!open}>
             <IconButton
               color="inherit"
@@ -97,6 +101,8 @@ class BurgerMenu extends React.Component {
             </IconButton>
           </Toolbar>
         </AppBar>
+
+        /*_________________________ Menu abierto _______________________________*/
         <Drawer
           className={classes.drawer}
           variant="temporary"
@@ -117,17 +123,14 @@ class BurgerMenu extends React.Component {
           <Divider />
           <List>
               <ListItem button>
-                {/*<ListItemIcon></ListItemIcon>*/}
                 <ListItemText primary={'Home'} onClick={this.handleDrawerClose} />
               </ListItem>
 
               <ListItem button>
-                {/*<ListItemIcon></ListItemIcon>*/}
                 <ListItemText primary={'About us'} onClick={this.handleDrawerClose} />
               </ListItem>
-              <ListItem button>
 
-                {/*<ListItemIcon></ListItemIcon>*/}
+              <ListItem button>
                 <ListItemText primary={'Contact'} onClick={this.handleDrawerClose} />
               </ListItem>
           </List>
