@@ -15,7 +15,6 @@ import ChevronLeftIcon from '@material-ui/icons/ChevronLeft';
 import ChevronRightIcon from '@material-ui/icons/ChevronRight';
 import ListItem from '@material-ui/core/ListItem';
 import ListItemText from '@material-ui/core/ListItemText';
-import { Link } from 'react-router-dom';
 
 
 const drawerWidth = 200;
@@ -96,9 +95,6 @@ class BurgerMenu extends React.Component {
             >
               <MenuIcon />
             </IconButton>
-            <Typography variant="h6" color="inherit" noWrap>
-              BetPluz
-            </Typography>
           </Toolbar>
         </AppBar>
         <Drawer
@@ -122,17 +118,17 @@ class BurgerMenu extends React.Component {
           <List>
               <ListItem button>
                 {/*<ListItemIcon></ListItemIcon>*/}
-                <Link to="/"><ListItemText primary={'Home'} onClick={this.handleDrawerClose} /></Link>
+                <ListItemText primary={'Home'} onClick={this.handleDrawerClose} />
               </ListItem>
 
               <ListItem button>
                 {/*<ListItemIcon></ListItemIcon>*/}
-                <Link to="/about"><ListItemText primary={'About us'} onClick={this.handleDrawerClose} /></Link>
+                <ListItemText primary={'About us'} onClick={this.handleDrawerClose} />
               </ListItem>
               <ListItem button>
 
                 {/*<ListItemIcon></ListItemIcon>*/}
-                <Link to="/contact"><ListItemText primary={'Contact'} onClick={this.handleDrawerClose} /></Link>
+                <ListItemText primary={'Contact'} onClick={this.handleDrawerClose} />
               </ListItem>
           </List>
         </Drawer>
