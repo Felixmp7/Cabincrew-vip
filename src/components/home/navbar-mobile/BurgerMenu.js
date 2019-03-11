@@ -79,7 +79,6 @@ class BurgerMenu extends React.Component {
     const { open } = this.state;
 
     return (
-      /*_________________________ Menu Cerrado _______________________________*/
       <div className={classes.root}>
         <CssBaseline />
         <AppBar
@@ -89,7 +88,7 @@ class BurgerMenu extends React.Component {
           })}
         >
 
-        /*_________________________ Burger Icon _______________________________*/
+        {/*_________________________ Burger Icon _______________________________*/}
           <Toolbar disableGutters={!open}>
             <IconButton
               color="inherit"
@@ -102,7 +101,7 @@ class BurgerMenu extends React.Component {
           </Toolbar>
         </AppBar>
 
-        /*_________________________ Menu abierto _______________________________*/
+        {/*_________________________ Menu abierto _______________________________*/}
         <Drawer
           className={classes.drawer}
           variant="temporary"
