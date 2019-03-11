@@ -6,9 +6,9 @@ body {
 	sans-serif;
 	-webkit-font-smoothing: antialiased;
 	-moz-osx-font-smoothing: grayscale;
-	background-image: url('media/cabin6.jpg');
+	/* background-image: url('media/cabin6.jpg');
 	background-size: 1600px 770px;
-	background-repeat: no-repeat;
+	background-repeat: no-repeat; */
 	box-sizing: border-box;
 }
 
