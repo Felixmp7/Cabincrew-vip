@@ -8,7 +8,6 @@ import CardContent from '@material-ui/core/CardContent';
 import CardActions from '@material-ui/core/CardActions';
 import Collapse from '@material-ui/core/Collapse';
 import IconButton from '@material-ui/core/IconButton';
-import Typography from '@material-ui/core/Typography';
 import ExpandMoreIcon from '@material-ui/icons/ExpandMore';
 import trophy from '../../../media/iconos/trophy.png';
 
@@ -86,19 +85,19 @@ class Metas extends React.Component {
           <CardContent>
             <div>
               <ul className={classes.texto}>
-                <li>Proporcionar la mejor calidad educativa para la Formación de los diferentes técnicos 
+                <li>Proporcionar la mejor calidad educativa para la Formación de los diferentes técnicos
                   Aeronauticos.</li>
                 <li>Captar el mayor número de aspirantes a ser Capacitados como Tripulantes de Cabina.</li>
                 <li>Mantener actualizados los cursos implantados.</li>
                 <li>Desarrollar nuevos cursos.</li>
-                <li>Obtención del personal de instructores de tierra y aire 
+                <li>Obtención del personal de instructores de tierra y aire
                   con el mejor estándar posible.</li>
-                <li>Definir la estructura organizativa para poder cumplir 
+                <li>Definir la estructura organizativa para poder cumplir
                   con los objetivos trazados.</li>
                 <li>Mantener confortable nuestros espacios físicos.</li>
-                <li>Efectuar los contactos necesarios con las instituciones 
-                  Nacionales e Internacionales para el apoyo de todas las 
-                  actividades de la Empresa en todos o en algunos programas 
+                <li>Efectuar los contactos necesarios con las instituciones
+                  Nacionales e Internacionales para el apoyo de todas las
+                  actividades de la Empresa en todos o en algunos programas
                   de Instrucción.</li>
                 <li>Mantener la vigencia de nuestra Certificación.</li>
               </ul>
