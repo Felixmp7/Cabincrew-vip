@@ -5,7 +5,7 @@
   z-index: 3;
 }
 .nav-position .nav-cont {
-  width: 700px;
+  width: 600px;
   margin: 5px auto;
 }
 .nav-position .nav-cont .menu {
@@ -19,7 +19,7 @@
   justify-content: space-around;
 }
 .nav-position .nav-cont .menu .lista li {
-  padding: 0 10px;
+  padding: 0 5px;
 }
 .nav-position .nav-cont .menu .lista li:hover {
   background-color: rgba(1, 1, 1, 0.07);

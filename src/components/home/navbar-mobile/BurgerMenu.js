@@ -113,7 +113,7 @@ class BurgerMenu extends React.Component {
         >
           <div className={classes.drawerHeader}>
             <Typography variant="h6" color="inherit" noWrap style={{margin: 'auto'}}>
-              Menu
+              Cabin Crew
             </Typography>
             <IconButton onClick={this.handleDrawerClose}>
               {theme.direction === 'ltr' ? <ChevronLeftIcon /> : <ChevronRightIcon />}
@@ -126,11 +126,27 @@ class BurgerMenu extends React.Component {
               </ListItem>
 
               <ListItem button>
-                <ListItemText primary={'About us'} onClick={this.handleDrawerClose} />
+                <ListItemText primary={'Nosotros'} onClick={this.handleDrawerClose} />
               </ListItem>
 
               <ListItem button>
-                <ListItemText primary={'Contact'} onClick={this.handleDrawerClose} />
+                <ListItemText primary={'Equipo'} onClick={this.handleDrawerClose} />
+              </ListItem>
+
+              <ListItem button>
+                <ListItemText primary={'Servicios'} onClick={this.handleDrawerClose} />
+              </ListItem>
+
+              <ListItem button>
+                <ListItemText primary={'Galeria'} onClick={this.handleDrawerClose} />
+              </ListItem>
+
+              <ListItem button>
+                <ListItemText primary={'Promociones'} onClick={this.handleDrawerClose} />
+              </ListItem>
+
+              <ListItem button>
+                <ListItemText primary={'Contacto'} onClick={this.handleDrawerClose} />
               </ListItem>
           </List>
         </Drawer>
