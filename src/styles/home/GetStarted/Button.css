@@ -28,4 +28,13 @@
   transition: all 0.6s ease;
 }
 
+@media screen and (max-width: 450px) and (max-height: 900px) {
+  .position-button {
+    align-items: flex-end;
+  }
+  .position-button .cont-button {
+    position: initial;
+  }
+}
+
 /*# sourceMappingURL=Button.css.map */
