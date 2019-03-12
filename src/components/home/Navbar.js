@@ -14,7 +14,7 @@ class Navbar extends Component {
 	}
 
 	render(){
-		if (isWidthUp('sm', this.props.width)) {
+		if (isWidthUp('md', this.props.width)) {
 			return (
 				<div className="nav-position">
 					<div className="nav-cont">
