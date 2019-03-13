@@ -161,3 +161,10 @@ BurgerMenu.propTypes = {
 };
 
 export default withStyles(styles, { withTheme: true })(BurgerMenu);
+
+const nosotros = 599
+window.onscroll = function() {
+  if (window.scrollY >= nosotros) {
+    console.log('entré')
+  }
+}
