@@ -3,7 +3,6 @@ import PropTypes from 'prop-types';
 import { withStyles } from '@material-ui/core/styles';
 import classnames from 'classnames';
 import Card from '@material-ui/core/Card';
-import CardMedia from '@material-ui/core/CardMedia';
 import CardContent from '@material-ui/core/CardContent';
 import CardActions from '@material-ui/core/CardActions';
 import Collapse from '@material-ui/core/Collapse';
@@ -16,6 +15,14 @@ const styles = theme => ({
   card: {
     maxWidth: 400,
   },
+  prueba: {
+    width: '100%',
+    padding: '20px 0 5px 0',
+    textAlign: 'center',
+  },
+  ima: {
+    width: 200,
+  },
   media: {
     width: 200,
     margin: '20px auto',
@@ -25,15 +32,13 @@ const styles = theme => ({
     display: 'flex',
     backgroundColor: '#f0f0f0',
     flexDirection: 'row',
-    justifyContent: 'flex-end',
+    justifyContent: 'space-between',
   },
-  title: {
-    marginRight: 65,
+  cardTitle: {
     fontSize: 28,
   },
   expand: {
     transform: 'rotate(0deg)',
-    //marginLeft: 'auto',
     transition: theme.transitions.create('transform', {
       duration: theme.transitions.duration.shortest,
     }),
@@ -55,15 +60,13 @@ class Estrategia extends React.Component {
 
     return (
       <Card className={classes.card}>
-        <CardMedia
-          className={classes.media}
-          image={options}
-          title="options"
-        />
+        <div className={classes.prueba}>
+          <img className={classes.ima} src={options} alt="list"/>
+        </div>
 
         <CardActions className={classes.actions} disableActionSpacing>
-          <CardContent className={classes.title}>
-            <span className="card-title">
+          <CardContent>
+            <span className={classes.cardTitle}>
               Estrategia
             </span>
           </CardContent>
@@ -81,35 +84,19 @@ class Estrategia extends React.Component {
         </CardActions>
         <Collapse in={this.state.expanded} timeout="auto" unmountOnExit>
           <CardContent>
-            <Typography paragraph>Para el cabal cumplimiento de su Misión, la empresa se ha fijado 
-              las siguientes estrategias:
-
-              La definición de una organización capaz de definir las reglas y programas necesarios 
-              para garantizar la completa operatividad de las mismas.
-              La estructura jerarquía que permita el manejo de información y la adecuada toma de 
-              decisiones.
-              El establecimiento de objetivos y metas.
-              Una continua supervisión de la organización, planes y programas, con el objeto de 
-              mantener los más altos niveles de estándares en todas las actividades educativas, 
-              para lograr y mantener la mejor calidad en los cursos que se ofrecen.
-            </Typography>
+            <Typography paragraph>Los objetivos que se ha planteado la Empresa para el
+            corto y mediano plazo son los siguientes:</Typography>
             <Typography paragraph>
-              Estas estrategias conllevan la definición de una estructura funcional centralizada 
-              la cual pueda operar eficientemente con un limitado número de recursos humanos que 
-              se enriquecerá con personal capacitado, dependiendo del volumen de las actividades 
-              académicas en las que se vea envuelta, en función de que se maneje un adecuado clima 
-              organizacional, sistemas y procedimientos requeridos para el desarrollo de sus actividades 
-              para el logro de los objetivos y metas establecidas.
+              Desarrollar cursos para la formación de Técnicos Aeronáuticos en las especialidades más
+              importantes y que se consideren de mayor necesidad para el desarrollo de la Industria
+              Aeronáutica Nacional e Internacional.
 
-              Tal como lo permiten las Regulaciones Aeronauticas Venezolanas actuales 
-              CABIN CREW TRAINING AND V.I.P SERVICES C.A, tiene la opción de crear núcleos en algunas 
-              regiones del país donde considere conveniente el desarrollo Aeronáutico de la propia 
-              región en particular y la del país en forma general.
-
-              CABIN CREW TRAINING AND V.I.P SERVICES C.A, como Centro de Instrucción Aeronáutica del 
-              país, mantiene una vigilancia constante sobre su organización, con el objeto de garantizar 
-              el uso óptimo de los recursos humanos y materiales para cumplir cabalmente con las metas y 
-              objetivos trazados.
+              Mantenerse como empresa líder del país en la Formación de Tripulantes de Cabina y de
+              Instructores Aeronáuticos.
+              Estructurar cursos de mejoramiento profesional en diferentes áreas y que en forma
+              periódica puedan ser ofrecidos a todas las empresas de aviación que participan en
+              la actividad diaria del país y del mundo.
+              Garantizar el mejor aprovechamiento de los recursos con los cuales cuenta.
             </Typography>
           </CardContent>
         </Collapse>
