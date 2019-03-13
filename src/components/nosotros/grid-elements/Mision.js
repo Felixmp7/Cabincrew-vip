@@ -14,6 +14,7 @@ import success from '../../../media/iconos/success.png';
 const styles = theme => ({
   card: {
     maxWidth: 400,
+    margin: 'auto',
   },
   prueba: {
     width: '100%',
