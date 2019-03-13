@@ -3,7 +3,6 @@ import PropTypes from 'prop-types';
 import { withStyles } from '@material-ui/core/styles';
 import classnames from 'classnames';
 import Card from '@material-ui/core/Card';
-import CardMedia from '@material-ui/core/CardMedia';
 import CardContent from '@material-ui/core/CardContent';
 import CardActions from '@material-ui/core/CardActions';
 import Collapse from '@material-ui/core/Collapse';
@@ -16,6 +15,14 @@ const styles = theme => ({
   card: {
     maxWidth: 400,
   },
+  prueba: {
+    width: '100%',
+    padding: '20px 0 5px 0',
+    textAlign: 'center',
+  },
+  ima: {
+    width: 200,
+  },
   media: {
     width: 200,
     margin: '20px auto',
@@ -25,15 +32,13 @@ const styles = theme => ({
     display: 'flex',
     backgroundColor: '#f0f0f0',
     flexDirection: 'row',
-    justifyContent: 'flex-end',
+    justifyContent: 'space-between',
   },
-  title: {
-    marginRight: 65,
+  cardTitle: {
     fontSize: 28,
   },
   expand: {
     transform: 'rotate(0deg)',
-    //marginLeft: 'auto',
     transition: theme.transitions.create('transform', {
       duration: theme.transitions.duration.shortest,
     }),
@@ -55,15 +60,13 @@ class Mision extends React.Component {
 
     return (
       <Card className={classes.card}>
-        <CardMedia
-          className={classes.media}
-          image={success}
-          title="success"
-        />
+        <div className={classes.prueba}>
+          <img className={classes.ima} src={success} alt="list"/>
+        </div>
 
         <CardActions className={classes.actions} disableActionSpacing>
-          <CardContent className={classes.title}>
-            <span className="card-title">
+          <CardContent>
+            <span className={classes.cardTitle}>
               Mision
             </span>
           </CardContent>
@@ -81,28 +84,19 @@ class Mision extends React.Component {
         </CardActions>
         <Collapse in={this.state.expanded} timeout="auto" unmountOnExit>
           <CardContent>
-            <Typography paragraph>CABIN CREW TRAINING AND V.I.P. SERVICES C.A, 
-            tiene como Misión principal la de planificar, dirigir, coordinar, 
-            ejecutar y supervisar actividades educativas para el desarrollo e 
-            implementación de Cursos para la Formación de Profesionales y Técnicos
-             del medio Aeronáutico.</Typography>
+            <Typography paragraph>Los objetivos que se ha planteado la Empresa para el
+            corto y mediano plazo son los siguientes:</Typography>
             <Typography paragraph>
-              Así como también todas las actividades relacionadas con la actualización y
-               el mejoramiento continuo de dicho personal con el objeto de integrar y mantener
-                un grupo humano Profesional que apoye y de soporte sólido al desarrollo de la 
-                Aviación Nacional e Internacional y de esta manera mantenernos en nuestra posicion
-                 actual como la mejor opción de Centros de Instrucción en Capacitación de 
-                 Profesionales Aeronáuticos.
-            </Typography>
-            <Typography paragraph>
-              Para el fiel cumplimiento de su Misión se apoya en las actividades que:
-            </Typography>
-            <Typography paragraph>
-              Describen el futuro deseable de la empresa.
-              Proveen una guía direccional, adaptable a las circunstancias del momento, 
-                para alcanzar los fines y objetivos de la Empresa.
-              Sean cuantificables y como tales, capaces de ser analizadas y evaluadas.
-              Se pueden fijar con plazos y limites funcionales.
+              Desarrollar cursos para la formación de Técnicos Aeronáuticos en las especialidades más
+              importantes y que se consideren de mayor necesidad para el desarrollo de la Industria
+              Aeronáutica Nacional e Internacional.
+
+              Mantenerse como empresa líder del país en la Formación de Tripulantes de Cabina y de
+              Instructores Aeronáuticos.
+              Estructurar cursos de mejoramiento profesional en diferentes áreas y que en forma
+              periódica puedan ser ofrecidos a todas las empresas de aviación que participan en
+              la actividad diaria del país y del mundo.
+              Garantizar el mejor aprovechamiento de los recursos con los cuales cuenta.
             </Typography>
           </CardContent>
         </Collapse>
