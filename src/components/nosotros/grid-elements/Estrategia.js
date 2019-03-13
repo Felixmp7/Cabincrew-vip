@@ -14,6 +14,7 @@ import options from '../../../media/iconos/options.png';
 const styles = theme => ({
   card: {
     maxWidth: 400,
+    margin: 'auto',
   },
   prueba: {
     width: '100%',
