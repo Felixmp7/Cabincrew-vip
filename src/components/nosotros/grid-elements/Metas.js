@@ -14,6 +14,7 @@ import trophy from '../../../media/iconos/trophy.png';
 const styles = theme => ({
   card: {
     maxWidth: 400,
+    margin: 'auto',
   },
   prueba: {
     width: '100%',
