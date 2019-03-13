@@ -22,7 +22,7 @@ const styles = theme => ({
     textAlign: 'center',
   },
   ima: {
-    width: '70%',
+    width: 200,
   },
   media: {
     width: 200,
