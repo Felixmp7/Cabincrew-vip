@@ -3,7 +3,6 @@ import PropTypes from 'prop-types';
 import { withStyles } from '@material-ui/core/styles';
 import classnames from 'classnames';
 import Card from '@material-ui/core/Card';
-import CardMedia from '@material-ui/core/CardMedia';
 import CardContent from '@material-ui/core/CardContent';
 import CardActions from '@material-ui/core/CardActions';
 import Collapse from '@material-ui/core/Collapse';
@@ -33,15 +32,13 @@ const styles = theme => ({
     display: 'flex',
     backgroundColor: '#f0f0f0',
     flexDirection: 'row',
-    justifyContent: 'flex-end',
+    justifyContent: 'space-between',
   },
-  title: {
-    marginRight: 65,
+  cardTitle: {
     fontSize: 28,
   },
   expand: {
     transform: 'rotate(0deg)',
-    //marginLeft: 'auto',
     transition: theme.transitions.create('transform', {
       duration: theme.transitions.duration.shortest,
     }),
@@ -66,15 +63,10 @@ class Objetivos extends React.Component {
         <div className={classes.prueba}>
           <img className={classes.ima} src={list} alt="list"/>
         </div>
-        {/*<CardMedia
-          className={classes.media}
-          image={list}
-          title="list"
-        />*/}
 
         <CardActions className={classes.actions} disableActionSpacing>
-          <CardContent className={classes.title}>
-            <span className="card-title">
+          <CardContent>
+            <span className={classes.cardTitle}>
               Objetivos
             </span>
           </CardContent>
@@ -105,24 +97,6 @@ class Objetivos extends React.Component {
               periódica puedan ser ofrecidos a todas las empresas de aviación que participan en
               la actividad diaria del país y del mundo.
               Garantizar el mejor aprovechamiento de los recursos con los cuales cuenta.
-
-              Dotar a la Empresa con los recursos técnicos necesarios para el mejor desarrollo
-              de sus actividades.
-
-              Desarrollar Habilitaciones de Equipos Aeronauticos, nuevos cursos técnicos y todas
-               aquellas actividades educativas que se consideren importantes para ampliar y solidificar
-               la actividad Aeronáutica en el país y en los paises que lo requieran.
-
-              Mantener y ampliar las asesorías técnicas a las empresas del ramo en el ámbito nacional
-              e Internacional.
-
-              Internacionalizar la Empresa mediante la captación de estudiantes de otros países,
-              aprovechando los factores de nuestra economía que permitan ofrecer buenas oportunidades
-              de estudio en el país.
-
-              Mantener vigilancia sobre la organización y producir los cambios que sean
-              necesarios en la estructura, sistemas, normas y procedimientos para buscar
-              un desarrollo óptimo de sus actividades.
             </Typography>
           </CardContent>
         </Collapse>
