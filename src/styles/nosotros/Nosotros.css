@@ -20,8 +20,11 @@
   margin: 200px 0 50px 0;
 }
 
-.cont {
-  border: 1px solid black;
+@media only screen and (max-width: 992px) {
+  .row .col.m8 {
+    width: 100%;
+    margin-bottom: 30px;
+  }
 }
 
 /*# sourceMappingURL=Nosotros.css.map */
