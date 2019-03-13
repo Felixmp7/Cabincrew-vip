@@ -1,9 +1,11 @@
 .cont-nosotros {
+  width: 100%;
   background-color: #5E0F15;
   padding-bottom: 5px;
+  height: 50vh;
 }
 .cont-nosotros .cont-titulo {
-  width: 400px;
+  width: 300px;
   position: relative;
   margin: auto;
   top: 120px;
