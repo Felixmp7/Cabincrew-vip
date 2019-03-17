@@ -1,5 +1,8 @@
+//Dependencies
 import React, { Component } from 'react';
+//Components
 import GridNosotros from './GridNosotros';
+//CSS
 import './../../styles/nosotros/Nosotros.css';
 
 class Nosotros extends Component {
@@ -10,7 +13,7 @@ class Nosotros extends Component {
 					<h3 className="titulo">Nosotros</h3>
 				</div>
 				<div className="cont-columnas">
-					<GridNosotros />
+					<GridNosotros/>
 				</div>
 			</div>
 		);

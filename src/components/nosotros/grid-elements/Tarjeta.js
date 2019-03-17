@@ -9,7 +9,6 @@ import Collapse from '@material-ui/core/Collapse';
 import IconButton from '@material-ui/core/IconButton';
 import Typography from '@material-ui/core/Typography';
 import ExpandMoreIcon from '@material-ui/icons/ExpandMore';
-import success from '../../../media/iconos/success.png';
 
 const styles = theme => ({
   card: {
@@ -49,7 +48,7 @@ const styles = theme => ({
   },
 });
 
-class Mision extends React.Component {
+class Tarjeta extends React.Component {
   state = { expanded: false };
 
   handleExpandClick = () => {
@@ -62,13 +61,13 @@ class Mision extends React.Component {
     return (
       <Card className={classes.card}>
         <div className={classes.prueba}>
-          <img className={classes.ima} src={success} alt="list"/>
+          <img className={classes.ima} src={this.props.media} alt="list"/>
         </div>
 
         <CardActions className={classes.actions} disableActionSpacing>
           <CardContent>
             <span className={classes.cardTitle}>
-              Mision
+              {this.props.title}
             </span>
           </CardContent>
 
@@ -106,8 +105,8 @@ class Mision extends React.Component {
   }
 }
 
-Mision.propTypes = {
+Tarjeta.propTypes = {
   classes: PropTypes.object.isRequired,
 };
 
-export default withStyles(styles)(Mision);
+export default withStyles(styles)(Tarjeta);
