@@ -7,8 +7,6 @@ import '../../styles/home/navbar/Navbar.css';
 import withWidth, { isWidthUp } from '@material-ui/core/withWidth';
 import BurgerMenu from './navbar-mobile/BurgerMenu';
 
-const data = ['Home', 'Nosotros', 'Equipo', 'Servicios', 'Galeria', 'Promociones', 'Contacto']
-
 class Navbar extends Component {
 	Clickeado = () => {
 		const boton = document.querySelectorAll('li')
@@ -23,7 +21,7 @@ class Navbar extends Component {
 						<nav className="menu">
 							<ul onClick={this.Clickeado} className="lista">
 							{
-								data.map((enlace, index) =>{
+								this.props.enlaces.map((enlace, index) =>{
 									return(
 										<li key={index}><p>{enlace}</p></li>
 									)
@@ -45,11 +43,3 @@ class Navbar extends Component {
 }
 
 export default withWidth()(Navbar);
-
-/*<li className="Home"><p>Home</p></li>
-<li><p>Nosotros</p></li>
-<li><p>Equipo</p></li>
-<li><p>Servicios</p></li>
-<li><p>Galeria</p></li>
-<li><p>Promociones</p></li>
-<li><p>Contacto</p></li>*/
