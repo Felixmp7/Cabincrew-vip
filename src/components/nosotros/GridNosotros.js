@@ -1,7 +1,7 @@
 // Dependencies
 import React from 'react';
 // Components
-import Tarjeta from './grid-elements/Tarjeta'
+import Tarjeta from './Tarjeta'
 // CSS
 import './../../styles/nosotros/Nosotros.css'
 //Media
