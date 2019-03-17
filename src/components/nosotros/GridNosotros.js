@@ -5,10 +5,10 @@ import Tarjeta from './Tarjeta'
 // CSS
 import './../../styles/nosotros/Nosotros.css'
 //Media
-import options from './../../media/iconos/options.png';
-import list from './../../media/iconos/list.png';
-import success from './../../media/iconos/success.png';
-import trophy from './../../media/iconos/trophy.png';
+import options from './../../media/iconos/options.png'
+import list from './../../media/iconos/list.png'
+import success from './../../media/iconos/success.png'
+import trophy from './../../media/iconos/trophy.png'
 
 const GridNosotros = () => {
   return (

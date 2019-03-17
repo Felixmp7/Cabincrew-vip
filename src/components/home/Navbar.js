@@ -1,11 +1,11 @@
 //Dependencies
-import React, { Component } from 'react';
-import withWidth, { isWidthUp } from '@material-ui/core/withWidth';
+import React, { Component } from 'react'
+import withWidth, { isWidthUp } from '@material-ui/core/withWidth'
 //CSS
-import 'materialize-css/dist/css/materialize.min.css';
-import '../../styles/home/navbar/Navbar.css';
+import 'materialize-css/dist/css/materialize.min.css'
+import '../../styles/home/navbar/Navbar.css'
 //Components
-import BurgerMenu from './navbar-mobile/BurgerMenu';
+import BurgerMenu from './navbar-mobile/BurgerMenu'
 
 class Navbar extends Component {
 	render(){

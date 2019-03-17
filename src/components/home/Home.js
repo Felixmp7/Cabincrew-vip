@@ -1,8 +1,11 @@
-import React from 'react';
-import Navbar from './Navbar';
-import Title from './Title';
-import GetStartedButton from './GetStartedButton';
-import './../../styles/home/Home.css';
+//Dependencies
+import React from 'react'
+//Components
+import Navbar from './Navbar'
+import Title from './Title'
+import GetStartedButton from './GetStartedButton'
+//CSS
+import './../../styles/home/Home.css'
 
 const enlaces = [
 	'Home',

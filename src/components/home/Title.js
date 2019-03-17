@@ -1,5 +1,7 @@
-import React from 'react';
-import './../../styles/home/title/Title.css';
+//Dependencies
+import React from 'react'
+//CSS
+import './../../styles/home/title/Title.css'
 
 const Title = () => {
 	return (

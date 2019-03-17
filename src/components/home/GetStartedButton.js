@@ -1,4 +1,6 @@
-import React from 'react';
+// Dependencies
+import React from 'react'
+//CSS
 import './../../styles/home/GetStarted/Button.css'
 
 const GetStartedButton = () => {
@@ -12,4 +14,3 @@ const GetStartedButton = () => {
 }
 
 export default GetStartedButton;
-	

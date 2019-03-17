@@ -1,9 +1,9 @@
 //Dependencies
-import React, { Component } from 'react';
+import React, { Component } from 'react'
 //Components
-import GridNosotros from './GridNosotros';
+import GridNosotros from './GridNosotros'
 //CSS
-import './../../styles/nosotros/Nosotros.css';
+import './../../styles/nosotros/Nosotros.css'
 
 class Nosotros extends Component {
 	render() {
