@@ -18,7 +18,7 @@ class Navbar extends Component {
 							{
 								this.props.enlaces.map((enlace, index) =>{
 									return(
-										<li key={index}><p>{enlace}</p></li>
+										<li key={index}>{enlace}</li>
 									)
 								})
 							}

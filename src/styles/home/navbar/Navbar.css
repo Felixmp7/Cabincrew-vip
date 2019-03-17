@@ -19,16 +19,13 @@
   justify-content: space-around;
 }
 .nav-position .nav-cont .menu .lista li {
+  color: black;
+  font-size: 16px;
   padding: 0 5px;
 }
 .nav-position .nav-cont .menu .lista li:hover {
   background-color: rgba(1, 1, 1, 0.07);
   cursor: pointer;
-}
-.nav-position .nav-cont .menu .lista p {
-  font-size: 16px;
-  color: black;
-  margin: 0 auto;
 }
 
 /*# sourceMappingURL=Navbar.css.map */
