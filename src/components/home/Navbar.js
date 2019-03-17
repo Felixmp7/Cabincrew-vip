@@ -8,18 +8,13 @@ import withWidth, { isWidthUp } from '@material-ui/core/withWidth';
 import BurgerMenu from './navbar-mobile/BurgerMenu';
 
 class Navbar extends Component {
-	Clickeado = () => {
-		const boton = document.querySelectorAll('li')
-		console.log(boton)
-	}
-
 	render(){
 		if (isWidthUp('md', this.props.width)) {
 			return (
 				<div className="nav-position">
 					<div className="nav-cont">
 						<nav className="menu">
-							<ul onClick={this.Clickeado} className="lista">
+							<ul className="lista">
 							{
 								this.props.enlaces.map((enlace, index) =>{
 									return(
