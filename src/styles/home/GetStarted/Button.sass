@@ -1,31 +1,25 @@
-.position-button
-  width: 100%
-  height: 70vh
-  //border: 1px solid red
-  display: flex
-  justify-content: center
-  align-items: center
-  .cont-button
-    position: relative
-    top: calc(30vh - 5%)
-    width: 150px
-    height: 50px
-    .get-started
-      width: 100%
-      height: 100%
-      background-color: rgba(255,255,255,0)
-      border: 2px solid #5E0F15
-      border-radius: 3px
-      cursor: pointer
-      color: #5E0F15
-      font-size: 18px
-      transition: all .6s ease
-      &:hover
-        background-color: rgba(94, 15, 21, 1)
-        color: white
-        transition: all .6s ease
 
-@media screen and (max-width: 768px)
+.cont-button
+  position: relative
+  top: calc(30vh - 5%)
+  width: 150px
+  height: 50px
+  .get-started
+    width: 100%
+    height: 100%
+    background-color: rgba(255,255,255,0)
+    border: 2px solid #5E0F15
+    border-radius: 3px
+    cursor: pointer
+    color: #5E0F15
+    font-size: 18px
+    transition: all .6s ease
+    &:hover
+      background-color: rgba(94, 15, 21, 1)
+      color: white
+      transition: all .6s ease
+
+@media screen and (max-width: 768px) and (min-height: 768px)
   .cont-home
     .cont-button
-      top: 30vh
+      top: calc(55vh - 5%)
