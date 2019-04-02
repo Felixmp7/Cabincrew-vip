@@ -20,8 +20,7 @@
 
 @media screen and (max-width: 768px) {
   .cont-title {
-    padding: 10px;
-    top: 8vh;
+    padding: 0px 5px;
   }
   .cont-title h1 {
     font-size: 3.2rem;
@@ -29,6 +28,11 @@
   }
   .cont-title h2 {
     font-size: 1.6rem;
+  }
+}
+@media screen and (max-width: 560px) {
+  .cont-title {
+    top: calc(10vh - 7vw);
   }
 }
 
