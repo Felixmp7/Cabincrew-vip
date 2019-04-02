@@ -11,7 +11,7 @@ class App extends Component {
     return (
       <div className="App">
         <Home />
-        <Nosotros />
+        {/* <Nosotros /> */}
       </div>
     );
   }
