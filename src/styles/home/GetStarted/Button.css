@@ -22,4 +22,10 @@
   transition: all 0.6s ease;
 }
 
+@media screen and (max-height: 615px) and (max-width: 992px) {
+  .cont-button {
+    top: 48%;
+  }
+}
+
 /*# sourceMappingURL=Button.css.map */
