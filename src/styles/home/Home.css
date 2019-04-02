@@ -1,5 +1,6 @@
 .cont-home {
   width: 100%;
+  height: auto;
   background-image: url("../../media/cabin6.jpg");
   background-size: cover;
   background-repeat: no-repeat;
