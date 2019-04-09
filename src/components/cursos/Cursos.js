@@ -14,6 +14,9 @@ const Cursos = () => (
         Te brindaremos una guía direccional, adaptable a las circunstancias del momento,
         para alcanzar los fines y objetivos de le Empresa.
       </p>
+      <div className="cont-Button">
+        <button>Mas info</button>
+      </div>
     </div>
   </div>
 )
