@@ -1,8 +1,9 @@
 import React from 'react'
 import cursos from '../../media/curso.jpg'
+import '../../styles/cursos/Cursos.css'
 
 const Cursos = () => (
-  <div className="container">
+  <div className="Curso">
     <div className="image">
       <img src={cursos} alt="cursos"/>
     </div>
