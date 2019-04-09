@@ -4,6 +4,10 @@
   align-items: center;
   padding: 50px;
   font-family: "Lato";
+  width: 100%;
+}
+.Curso .image {
+  border: 1px solid black;
 }
 .Curso .info {
   width: 640px;
