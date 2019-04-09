@@ -6,23 +6,26 @@
   font-family: "Lato";
 }
 .Curso .info {
-  width: 50%;
+  width: 640px;
   padding-left: 20px;
   display: flex;
   flex-direction: column;
-  align-items: center;
+  align-items: flex-start;
   justify-content: center;
+  border: 1px solid black;
 }
 .Curso .info h2 {
-  font-weight: 400;
+  font-weight: 700;
   color: #5e1014;
 }
 .Curso .info h4 {
   font-weight: 400;
+  font-size: 30px;
 }
 .Curso .info p {
   font-weight: lighter;
-  font-size: 24px;
+  font-size: 22px;
+  display: block;
   padding-left: 40px;
   padding-right: 85px;
 }
