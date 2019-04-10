@@ -28,14 +28,13 @@
   margin: 0px;
 }
 .Equipo .Teachers .Teacher-card .Info-card h5 {
-  color: #680d1a;
+  color: #a21024;
 }
 .Equipo .Teachers .Teacher-card .Info-card h6 {
   color: #2e2e2e;
 }
 .Equipo .Info {
   width: 100%;
-  border: 1px solid black;
   margin-top: 50px;
 }
 .Equipo .Info p {
@@ -43,7 +42,6 @@
   font-size: 22px;
   width: 60%;
   margin: auto;
-  border: 1px solid black;
 }
 .Equipo .cont-Button {
   margin-top: 80px;
@@ -53,7 +51,7 @@
 .Equipo .cont-Button button {
   width: 150px;
   height: 50px;
-  background-color: #5e1014;
+  background-color: #a21024;
   border-style: none;
   border-color: none;
   color: white;
@@ -62,6 +60,12 @@
 }
 .Equipo .cont-Button button:hover {
   cursor: pointer;
+}
+.Equipo .imageBG {
+  width: 100%;
+}
+.Equipo .imageBG img {
+  width: 100%;
 }
 
 /*# sourceMappingURL=Equipo.css.map */
