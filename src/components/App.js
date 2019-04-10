@@ -5,6 +5,7 @@ import Home from './home/Home';
 import Cursos from './cursos/Cursos'
 import Banner from './banner/Banner'
 import Equipo from './equipo/Equipo'
+import Footer from './footer/Footer'
 //Media
 import p1 from '../media/1-Persona.png'
 import p2 from '../media/2-Persona.png'
@@ -38,6 +39,7 @@ class App extends Component {
         <Cursos/>
         <Banner/>
         <Equipo data={this.state.teachers}/>
+        <Footer/>
       </div>
     );
   }
