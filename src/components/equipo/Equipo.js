@@ -15,8 +15,8 @@ class Equipo extends Component{
                   <img src={teacher.img} alt={teacher.ocupation}/>
                 </div>
                 <div className="Info-card">
-                  <h3>{teacher.name}</h3>
-                  <h5>{teacher.ocupation}</h5>
+                  <h5>{teacher.name}</h5>
+                  <h6>{teacher.ocupation}</h6>
                 </div>
               </div>
             )
