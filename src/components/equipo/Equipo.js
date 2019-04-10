@@ -1,18 +1,20 @@
 import React, {Component} from 'react'
 import plain from '../../media/2-Avion.jpg'
+import '../../styles/equipo/Equipo.css'
 
 class Equipo extends Component{
   render(){
     return(
       <div className="Equipo">
-        {
+        <div className="Teachers">
+          {
           this.props.data.map( (teacher, key) => {
             return(
-              <div key={teacher.key} className="Teacher-card">
-                <div className="Image-container">
+              <div key={key} className="Teacher-card">
+                <div className="Image-card">
                   <img src={teacher.img} alt={teacher.ocupation}/>
                 </div>
-                <div className="Info-team">
+                <div className="Info-card">
                   <h3>{teacher.name}</h3>
                   <h5>{teacher.ocupation}</h5>
                 </div>
@@ -20,6 +22,7 @@ class Equipo extends Component{
             )
           })
         }
+        </div>
         <div className="Info">
           <p>
             Te brindaremos una guía direccional, adaptable a las circunstancias

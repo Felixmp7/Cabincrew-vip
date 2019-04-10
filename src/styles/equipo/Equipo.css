@@ -1,0 +1,26 @@
+.Equipo {
+  width: 100%;
+}
+.Equipo .Teachers {
+  width: 100%;
+  display: flex;
+}
+.Equipo .Teachers .Teacher-card {
+  width: 600px;
+  height: 500px;
+  border: 1px solid black;
+  padding: 20px;
+}
+.Equipo .Teachers .Teacher-card .Image-card {
+  width: 300px;
+  border: 1px solid black;
+}
+.Equipo .Teachers .Teacher-card .Image-card img {
+  width: 100%;
+}
+.Equipo .Teachers .Teacher-card .Info-card {
+  width: 100%;
+  border: 1px solid black;
+}
+
+/*# sourceMappingURL=Equipo.css.map */
