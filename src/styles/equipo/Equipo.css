@@ -11,20 +11,17 @@
 .Equipo .Teachers .Teacher-card {
   text-align: center;
   width: 30%;
-  border: 1px solid black;
   padding: 20px;
 }
 .Equipo .Teachers .Teacher-card .Image-card {
   width: 230px;
   margin: auto;
-  border: 1px solid black;
 }
 .Equipo .Teachers .Teacher-card .Image-card img {
   width: 100%;
 }
 .Equipo .Teachers .Teacher-card .Info-card {
   width: 100%;
-  border: 1px solid black;
   padding: 5px;
 }
 .Equipo .Teachers .Teacher-card .Info-card h5, .Equipo .Teachers .Teacher-card .Info-card h6 {
