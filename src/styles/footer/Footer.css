@@ -2,11 +2,20 @@
   width: 100%;
   height: 300px;
   background-color: #a21024;
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
 }
 .Footer .Footer-info {
-  display: inline-block;
-  position: relative;
-  bottom: 0;
+  text-align: center;
+  width: 100%;
+  padding: 5px;
+  background-color: #5D1014;
+}
+.Footer .Footer-info p {
+  color: white;
+  font-size: 16px;
+  font-weight: lighter;
 }
 
 /*# sourceMappingURL=Footer.css.map */
