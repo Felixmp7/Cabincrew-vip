@@ -1,7 +1,7 @@
 import React from 'react'
 import '../../styles/equipo/Equipo.css'
 
-const Equipo = () => (
+const Banner = () => (
   <div className="Banner">
     <div className="container">
       <h2>Nuestro equipo profesional</h2>
@@ -16,4 +16,4 @@ const Equipo = () => (
   </div>
 )
 
-export default Equipo
+export default Banner
