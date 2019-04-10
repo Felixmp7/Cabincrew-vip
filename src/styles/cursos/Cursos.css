@@ -42,5 +42,8 @@
   color: white;
   border-radius: 0 10px 0 10px;
 }
+.Curso .info .cont-Button button:hover {
+  cursor: pointer;
+}
 
 /*# sourceMappingURL=Cursos.css.map */
