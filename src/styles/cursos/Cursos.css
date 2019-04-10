@@ -1,0 +1,49 @@
+.Curso {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 50px;
+  font-family: "Lato";
+  width: 100%;
+}
+.Curso .info {
+  width: 640px;
+  padding-left: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+}
+.Curso .info h2 {
+  font-weight: 700;
+  color: #5e1014;
+}
+.Curso .info h4 {
+  font-weight: 400;
+  font-size: 30px;
+}
+.Curso .info p {
+  font-weight: lighter;
+  font-size: 22px;
+  display: block;
+  padding-left: 40px;
+  padding-right: 85px;
+}
+.Curso .info .cont-Button {
+  width: 100%;
+  text-align: center;
+}
+.Curso .info .cont-Button button {
+  width: 130px;
+  height: 50px;
+  background-color: #5e1014;
+  border-style: none;
+  border-color: none;
+  color: white;
+  border-radius: 0 10px 0 10px;
+}
+.Curso .info .cont-Button button:hover {
+  cursor: pointer;
+}
+
+/*# sourceMappingURL=Cursos.css.map */
