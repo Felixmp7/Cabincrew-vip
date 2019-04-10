@@ -1,4 +1,5 @@
 import React from 'react'
+import '../../styles/equipo/Equipo.css'
 
 const Equipo = () => (
   <div className="Banner">
@@ -8,7 +9,7 @@ const Equipo = () => (
       experiencia en el área de tripulacion de cabina.
     </p>
     <div className="cont-Button">
-      <button>Conocelos</button>
+      <button>Conócelos</button>
     </div>
   </div>
 )
