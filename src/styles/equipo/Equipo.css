@@ -10,11 +10,7 @@
   color: white;
 }
 .Banner h2 {
-  font-weight: 700;
-}
-.Banner h4 {
-  font-weight: 400;
-  font-size: 30px;
+  font-weight: bold;
 }
 .Banner p {
   font-weight: lighter;
