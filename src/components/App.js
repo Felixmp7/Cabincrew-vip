@@ -3,6 +3,7 @@ import '../styles/app/App.css';
 import Home from './home/Home';
 //import Nosotros from './nosotros/Nosotros'
 import Cursos from './cursos/Cursos'
+import Equipo from './equipo/Equipo'
 
 class App extends Component {
   render() {
@@ -11,6 +12,7 @@ class App extends Component {
         <Home />
         {/* <Nosotros /> */}
         <Cursos/>
+        <Equipo/>
       </div>
     );
   }
