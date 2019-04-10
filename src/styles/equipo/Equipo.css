@@ -7,10 +7,10 @@
   border: 1px solid black;
   text-align: center;
   font-family: "Lato";
+  color: white;
 }
 .Banner h2 {
   font-weight: 700;
-  color: white;
 }
 .Banner h4 {
   font-weight: 400;
@@ -26,14 +26,14 @@
   text-align: center;
 }
 .Banner .cont-Button button {
-  width: 130px;
+  width: 180px;
   height: 50px;
   background-color: white;
   border-style: none;
   border-color: none;
   color: #5e1014;
-  border-radius: 0 10px 0 10px;
   font-size: 18px;
+  border-radius: 5px;
 }
 
 /*# sourceMappingURL=Equipo.css.map */
