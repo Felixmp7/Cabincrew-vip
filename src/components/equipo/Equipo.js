@@ -31,6 +31,9 @@ class Equipo extends Component{
             momento, para alcanzar los fines y objetivos de la Empresa.
           </p>
         </div>
+        <div className="cont-Button">
+          <button>Conócenos</button>
+        </div>
         <div className="imageBG">
           <img src={plain} alt="plain"/>
         </div>

@@ -45,5 +45,23 @@
   margin: auto;
   border: 1px solid black;
 }
+.Equipo .cont-Button {
+  margin-top: 80px;
+  width: 100%;
+  text-align: center;
+}
+.Equipo .cont-Button button {
+  width: 150px;
+  height: 50px;
+  background-color: #5e1014;
+  border-style: none;
+  border-color: none;
+  color: white;
+  border-radius: 5px;
+  font-size: 18px;
+}
+.Equipo .cont-Button button:hover {
+  cursor: pointer;
+}
 
 /*# sourceMappingURL=Equipo.css.map */
