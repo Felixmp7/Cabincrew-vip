@@ -16,17 +16,17 @@ class App extends Component {
       {
         name: 'Lic. Diana Gomez',
         ocupation: 'Directora',
-        img: p1
+        img: p3
       },
       {
         name: 'Cap. Martín Borges',
         ocupation: 'Director Ejecutivo',
-        img: p2
+        img: p1
       },
       {
         name: 'Dra. Daniela Oramas',
         ocupation: 'Jefe de SMS',
-        img: p3
+        img: p2
       },
     ]
   }
