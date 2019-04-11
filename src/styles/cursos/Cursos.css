@@ -42,7 +42,7 @@
   border-color: none;
   color: white;
   border-radius: 0 10px 0 10px;
-  transition: 1s;
+  transition: background-color 1s;
 }
 .Curso .info .cont-Button button:hover {
   cursor: pointer;
@@ -99,6 +99,13 @@
     font-size: 18px;
   }
   .Curso .info p {
+    font-size: 14px;
+  }
+}
+@media screen and (max-width: 425px) {
+  .Curso .info .cont-Button button {
+    width: 100px;
+    height: 35px;
     font-size: 14px;
   }
 }
