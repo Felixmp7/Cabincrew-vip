@@ -34,7 +34,7 @@ class App extends Component {
   render() {
     return (
       <div className="App">
-        <Home />
+        <Home /> {/* Hace falta revisar unos detalles en tamaño móvil*/}
         {/* <Nosotros /> */}
         <Cursos/>
         <Banner/>
