@@ -106,5 +106,11 @@
     font-size: 18px;
   }
 }
+@media screen and (max-width: 425px) {
+  .Equipo .Info {
+    margin-top: 25px;
+    text-align: center;
+  }
+}
 
 /*# sourceMappingURL=Equipo.css.map */
