@@ -5,8 +5,7 @@
   padding: 50px
   font-family: 'Lato'
   width: 100%
-  .image
-    //border: 1px solid black
+  //border: 1px solid black
   .info
     width: 640px
     padding-left: 20px
@@ -33,10 +32,63 @@
       button
         width: 130px
         height: 50px
-        background-color: #5e1014
+        font-size: 16px
+        background-color: rgba(94, 16, 20, .8)
         border-style: none
         border-color: none
         color: white
         border-radius: 0 10px 0 10px
+        transition: background-color 1s
         &:hover
           cursor: pointer
+          background-color: rgb(94, 16, 20)
+
+@media screen and (max-width: 1340px)
+  .Curso
+    flex-direction: column
+    .info
+      padding-left: 0
+      display: block
+      text-align: center
+
+@media screen and (max-width: 768px)
+  .Curso
+    .image
+      width: 90%
+      img
+        width: 100%
+    .info
+      width: 100%
+      h2
+        font-size: 38px
+      h4
+        font-size: 22px
+      p
+        font-size: 16px
+        padding-left: 0
+        padding-right: 0
+        margin-bottom: 30px
+
+@media screen and (max-width: 600px)
+  .Curso
+    .image
+      width: 100%
+      img
+        width: 100%
+    .info
+      width: 100%
+      h2
+        font-size: 32px
+      h4
+        font-size: 18px
+      p
+        font-size: 14px
+
+@media screen and (max-width: 425px)
+  .Curso
+    .info
+      .cont-Button
+        button
+          width: 100px
+          height: 35px
+          font-size: 14px

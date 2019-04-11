@@ -36,14 +36,78 @@
 .Curso .info .cont-Button button {
   width: 130px;
   height: 50px;
-  background-color: #5e1014;
+  font-size: 16px;
+  background-color: rgba(94, 16, 20, 0.8);
   border-style: none;
   border-color: none;
   color: white;
   border-radius: 0 10px 0 10px;
+  transition: background-color 1s;
 }
 .Curso .info .cont-Button button:hover {
   cursor: pointer;
+  background-color: #5e1014;
+}
+
+@media screen and (max-width: 1340px) {
+  .Curso {
+    flex-direction: column;
+  }
+  .Curso .info {
+    padding-left: 0;
+    display: block;
+    text-align: center;
+  }
+}
+@media screen and (max-width: 768px) {
+  .Curso .image {
+    width: 90%;
+  }
+  .Curso .image img {
+    width: 100%;
+  }
+  .Curso .info {
+    width: 100%;
+  }
+  .Curso .info h2 {
+    font-size: 38px;
+  }
+  .Curso .info h4 {
+    font-size: 22px;
+  }
+  .Curso .info p {
+    font-size: 16px;
+    padding-left: 0;
+    padding-right: 0;
+    margin-bottom: 30px;
+  }
+}
+@media screen and (max-width: 600px) {
+  .Curso .image {
+    width: 100%;
+  }
+  .Curso .image img {
+    width: 100%;
+  }
+  .Curso .info {
+    width: 100%;
+  }
+  .Curso .info h2 {
+    font-size: 32px;
+  }
+  .Curso .info h4 {
+    font-size: 18px;
+  }
+  .Curso .info p {
+    font-size: 14px;
+  }
+}
+@media screen and (max-width: 425px) {
+  .Curso .info .cont-Button button {
+    width: 100px;
+    height: 35px;
+    font-size: 14px;
+  }
 }
 
 /*# sourceMappingURL=Cursos.css.map */
