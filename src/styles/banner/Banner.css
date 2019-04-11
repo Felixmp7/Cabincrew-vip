@@ -1,6 +1,7 @@
 .Banner {
   width: 100%;
   height: auto;
+  max-height: 300px;
   padding: 30px 0;
   background-image: url("../../media/banner1.jpg");
   background-size: cover;
@@ -10,7 +11,8 @@
   color: white;
 }
 .Banner .container {
-  width: 700px;
+  width: 70%;
+  margin: auto;
 }
 .Banner .container h2 {
   font-weight: bold;
@@ -38,7 +40,31 @@
 .Banner .container .cont-Button button:hover {
   cursor: pointer;
   background-color: white;
-  border-radius: 0;
+  border-radius: 10px;
+}
+
+@media screen and (max-width: 768px) {
+  .Banner .container .cont-Button button {
+    width: 120px;
+    height: 40px;
+    font-size: 16px;
+  }
+}
+@media screen and (max-width: 425px) {
+  .Banner {
+    padding: 20px 10px;
+  }
+  .Banner .container {
+    width: 100%;
+  }
+  .Banner .container p {
+    font-size: 16px;
+  }
+  .Banner .container .cont-Button button {
+    width: 100px;
+    height: 30px;
+    font-size: 14px;
+  }
 }
 
 /*# sourceMappingURL=Banner.css.map */

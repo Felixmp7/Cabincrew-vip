@@ -3,7 +3,7 @@ import '../styles/app/App.css';
 //import Home from './home/Home';
 //import Nosotros from './nosotros/Nosotros'
 import Cursos from './cursos/Cursos'
-//import Banner from './banner/Banner'
+import Banner from './banner/Banner'
 //import Equipo from './equipo/Equipo'
 //import Footer from './footer/Footer'
 //Media
@@ -37,9 +37,9 @@ class App extends Component {
         {/* <Home /> */}
         {/* <Nosotros /> */}
         <Cursos/>
-        {/* <Banner/>
-        <Equipo data={this.state.teachers}/>
-        <Footer/> */}
+        <Banner/>
+        {/* <Equipo data={this.state.teachers}/> */}
+        {/* <Footer/> */}
       </div>
     );
   }
