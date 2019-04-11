@@ -46,4 +46,15 @@
   cursor: pointer;
 }
 
+@media screen and (max-width: 1150px) {
+  .Curso {
+    flex-direction: column;
+  }
+  .Curso .info {
+    padding-left: 0;
+    display: block;
+    text-align: center;
+  }
+}
+
 /*# sourceMappingURL=Cursos.css.map */
