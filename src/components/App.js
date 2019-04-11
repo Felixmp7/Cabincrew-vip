@@ -2,9 +2,9 @@ import React, { Component } from 'react';
 import '../styles/app/App.css';
 //import Home from './home/Home';
 //import Nosotros from './nosotros/Nosotros'
-import Cursos from './cursos/Cursos'
-import Banner from './banner/Banner'
-//import Equipo from './equipo/Equipo'
+// import Cursos from './cursos/Cursos'
+// import Banner from './banner/Banner'
+import Equipo from './equipo/Equipo'
 //import Footer from './footer/Footer'
 //Media
 import p1 from '../media/1-Persona.png'
@@ -36,9 +36,9 @@ class App extends Component {
       <div className="App">
         {/* <Home /> */}
         {/* <Nosotros /> */}
-        <Cursos/>
-        <Banner/>
-        {/* <Equipo data={this.state.teachers}/> */}
+        {/* <Cursos/> */}
+        {/* <Banner/> */}
+        <Equipo data={this.state.teachers}/>
         {/* <Footer/> */}
       </div>
     );

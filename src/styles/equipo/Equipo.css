@@ -68,4 +68,16 @@
   width: 100%;
 }
 
+@media screen and (max-width: 768px) {
+  .Equipo .Teachers .Teacher-card {
+    padding: 20px 10px;
+  }
+  .Equipo .Teachers .Teacher-card .Image-card {
+    width: 160px;
+  }
+  .Equipo .cont-Button {
+    margin-top: 40px;
+  }
+}
+
 /*# sourceMappingURL=Equipo.css.map */
