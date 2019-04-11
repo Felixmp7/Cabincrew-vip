@@ -85,5 +85,17 @@
     margin-top: 50px;
   }
 }
+@media screen and (max-width: 580px) {
+  .Equipo .Teachers {
+    flex-direction: column;
+    align-items: center;
+  }
+  .Equipo .Teachers .Teacher-card {
+    width: 50%;
+  }
+  .Equipo .Teachers .Teacher-card .Image-card {
+    width: 100%;
+  }
+}
 
 /*# sourceMappingURL=Equipo.css.map */
