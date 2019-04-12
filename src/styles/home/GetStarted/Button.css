@@ -25,10 +25,4 @@
   transition: all 0.6s ease;
 }
 
-@media screen and (max-height: 652px) and (max-width: 992px) {
-  .position-bottom-button {
-    top: calc(68% - 8vh);
-  }
-}
-
 /*# sourceMappingURL=Button.css.map */
