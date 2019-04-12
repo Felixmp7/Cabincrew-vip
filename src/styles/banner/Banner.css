@@ -16,6 +16,7 @@
 }
 .Banner .container h2 {
   font-weight: bold;
+  font-size: 5vmax;
 }
 .Banner .container p {
   font-weight: lighter;
@@ -43,7 +44,13 @@
   border-radius: 10px;
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 868px) {
+  .Banner .container {
+    width: 85%;
+  }
+  .Banner .container p {
+    font-size: 16px;
+  }
   .Banner .container .cont-Button button {
     width: 120px;
     height: 40px;
@@ -52,10 +59,13 @@
 }
 @media screen and (max-width: 425px) {
   .Banner {
-    padding: 20px 10px;
+    padding: 10px;
   }
   .Banner .container {
     width: 100%;
+  }
+  .Banner .container h2 {
+    margin-top: 5px;
   }
   .Banner .container p {
     font-size: 16px;

@@ -15,6 +15,7 @@
     margin: auto
     h2
       font-weight: bold
+      font-size: 5vmax
     p
       font-weight: lighter
       font-size: 22px
@@ -37,9 +38,12 @@
           background-color: white
           border-radius: 10px
 
-@media screen and (max-width: 768px)
+@media screen and (max-width: 868px)
   .Banner
     .container
+      width: 85%
+      p
+        font-size: 16px
       .cont-Button
         button
           width: 120px
@@ -48,9 +52,11 @@
 
 @media screen and (max-width: 425px)
   .Banner
-    padding: 20px 10px
+    padding: 10px
     .container
       width: 100%
+      h2
+        margin-top: 5px
       p
         font-size: 16px
       .cont-Button
