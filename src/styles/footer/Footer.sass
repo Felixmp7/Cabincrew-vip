@@ -2,15 +2,24 @@
   width: 100%
   height: 300px
   background-color: #a21024
-  display: flex
-  justify-content: center
-  align-items: flex-end
-  .Footer-info
-    text-align: center
-    width: 100%
-    padding: 5px
-    background-color: #5D1014
-    p
-      color: white
-      font-size: 16px
-      font-weight: lighter
+  position: relative
+  .Footer-position
+    position: absolute
+    bottom: 0
+    .Footer-info
+      text-align: center
+      width: 100%
+      padding: 5px 10px
+      background-color: #5D1014
+      p
+        color: white
+        font-size: 16px
+        font-weight: lighter
+
+@media screen and (max-width: 425px)
+  .Footer
+    height: 200px
+    .Footer-position
+      .Footer-info
+        p
+          font-size: 14px
