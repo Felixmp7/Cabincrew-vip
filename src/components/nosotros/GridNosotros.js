@@ -13,19 +13,35 @@ const GridNosotros = () => {
   return (
         <div className="row">
           <div className="col m8 l3 cont">
-            <Tarjeta title="Mision" image={mision}/>
+            <Tarjeta
+              title="Mision"
+              image={mision}
+              color="yellow"
+            />
           </div>
 
           <div className="col m8 l3 cont">
-            <Tarjeta title="Objetivos" image={objetivos}/>
+            <Tarjeta
+              title="Objetivos"
+              image={objetivos}
+              color="red"
+            />
           </div>
 
           <div className="col m8 l3 cont">
-            <Tarjeta title="Estrategia" image={estrategia}/>
+            <Tarjeta
+              title="Estrategia"
+              image={estrategia}
+              color="blue"
+            />
           </div>
 
           <div className="col m8 l3 cont">
-            <Tarjeta title="Metas" image={metas}/>
+            <Tarjeta
+              title="Metas"
+              image={metas}
+              color="green"
+            />
           </div>
         </div>
   )
