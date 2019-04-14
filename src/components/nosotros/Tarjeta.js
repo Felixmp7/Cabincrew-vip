@@ -36,8 +36,24 @@ const styles = theme => ({
     flexDirection: 'row',
     justifyContent: 'space-between',
   },
+  cardHeader: {
+    width: '100%',
+    display: 'flex',
+    justifyContent: 'flex-start',
+    alignItems: 'center',
+    padding: 5
+  },
+  iconContainer: {
+    width: 40,
+    borderRight: '2px solid black',
+    paddingRight: 10,
+    marginRight: 10,
+  },
+  Img: {
+    width: '100%'
+  },
   cardTitle: {
-    fontSize: 28,
+    fontSize: 22,
   },
   contenido: {
     backgroundColor: '#f0f0f0',
@@ -66,10 +82,15 @@ class Tarjeta extends React.Component {
     return (
       <Card className={classes.card}>
         <CardActions className={classes.actions} disableActionSpacing>
-          <CardContent>
-            <span className={classes.cardTitle}>
-              {this.props.title}
-            </span>
+          <CardContent style={{width: '80%', padding: 5}}>
+            <div className={classes.cardHeader}>
+              <div className={classes.iconContainer}>
+                <img className={classes.Img} src={this.props.image} alt={this.props.title}/>
+              </div>
+              <span className={classes.cardTitle}>
+                {this.props.title}
+              </span>
+            </div>
           </CardContent>
 
           <IconButton
