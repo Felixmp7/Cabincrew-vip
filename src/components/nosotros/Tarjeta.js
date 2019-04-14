@@ -17,19 +17,6 @@ const styles = theme => ({
     maxWidth: 400,
     margin: 'auto',
   },
-  prueba: {
-    width: '100%',
-    padding: '20px 0 5px 0',
-    textAlign: 'center',
-  },
-  ima: {
-    width: 200,
-  },
-  media: {
-    width: 200,
-    margin: '20px auto',
-    paddingTop: '53%', // 16:9
-  },
   actions: {
     display: 'flex',
     backgroundColor: '#f0f0f0',
