@@ -2,18 +2,31 @@
   width: 100%;
   height: 300px;
   background-color: #a21024;
-}
-.Footer .Footer-info {
   position: relative;
+}
+.Footer .Footer-position {
+  position: absolute;
+  bottom: 0;
+}
+.Footer .Footer-position .Footer-info {
   text-align: center;
   width: 100%;
-  padding: 5px;
+  padding: 5px 10px;
   background-color: #5D1014;
 }
-.Footer .Footer-info p {
+.Footer .Footer-position .Footer-info p {
   color: white;
   font-size: 16px;
   font-weight: lighter;
+}
+
+@media screen and (max-width: 425px) {
+  .Footer {
+    height: 200px;
+  }
+  .Footer .Footer-position .Footer-info p {
+    font-size: 14px;
+  }
 }
 
 /*# sourceMappingURL=Footer.css.map */
