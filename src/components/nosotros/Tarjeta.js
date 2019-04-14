@@ -17,27 +17,33 @@ const styles = theme => ({
     maxWidth: 400,
     margin: 'auto',
   },
-  prueba: {
-    width: '100%',
-    padding: '20px 0 5px 0',
-    textAlign: 'center',
-  },
-  ima: {
-    width: 200,
-  },
-  media: {
-    width: 200,
-    margin: '20px auto',
-    paddingTop: '53%', // 16:9
-  },
   actions: {
     display: 'flex',
     backgroundColor: '#f0f0f0',
     flexDirection: 'row',
     justifyContent: 'space-between',
   },
+  cardHeader: {
+    width: '100%',
+    display: 'flex',
+    justifyContent: 'flex-start',
+    alignItems: 'center',
+    padding: 5
+  },
+  iconContainer: {
+    width: 40,
+    borderRight: '2px solid black',
+    paddingRight: 10,
+    marginRight: 10,
+  },
+  Img: {
+    width: '100%'
+  },
   cardTitle: {
-    fontSize: 28,
+    fontSize: 22,
+  },
+  contenido: {
+    backgroundColor: '#f0f0f0',
   },
   expand: {
     transform: 'rotate(0deg)',
@@ -62,15 +68,16 @@ class Tarjeta extends React.Component {
 
     return (
       <Card className={classes.card}>
-        <div className={classes.prueba}>
-          <img className={classes.ima} src={this.props.media} alt="list"/>
-        </div>
-
         <CardActions className={classes.actions} disableActionSpacing>
-          <CardContent>
-            <span className={classes.cardTitle}>
-              {this.props.title}
-            </span>
+          <CardContent style={{width: '80%', padding: 5}}>
+            <div className={classes.cardHeader}>
+              <div className={classes.iconContainer}>
+                <img className={classes.Img} src={this.props.image} alt={this.props.title}/>
+              </div>
+              <span className={classes.cardTitle}>
+                {this.props.title}
+              </span>
+            </div>
           </CardContent>
 
           <IconButton
@@ -85,7 +92,7 @@ class Tarjeta extends React.Component {
           </IconButton>
         </CardActions>
         <Collapse in={this.state.expanded} timeout="auto" unmountOnExit>
-          <CardContent>
+          <CardContent className={classes.contenido}>
             <Typography paragraph>Los objetivos que se ha planteado la Empresa para el
             corto y mediano plazo son los siguientes:</Typography>
             <Typography paragraph>

@@ -9,9 +9,6 @@ class Nosotros extends Component {
 	render() {
 		return (
 			<div className="cont-nosotros">
-				<div className="cont-titulo">
-					<h3 className="titulo">Nosotros</h3>
-				</div>
 				<div className="cont-columnas">
 					<GridNosotros/>
 				</div>
