@@ -16,7 +16,7 @@
 }
 .Banner .container h2 {
   font-weight: bold;
-  font-size: 5vmax;
+  font-size: 4vmax;
 }
 .Banner .container p {
   font-weight: lighter;
@@ -48,6 +48,9 @@
   .Banner .container {
     width: 85%;
   }
+  .Banner .container h2 {
+    font-size: 5vmax;
+  }
   .Banner .container p {
     font-size: 16px;
   }
@@ -65,10 +68,11 @@
     width: 100%;
   }
   .Banner .container h2 {
+    font-size: 28px;
     margin-top: 5px;
   }
   .Banner .container p {
-    font-size: 16px;
+    font-size: 14px;
   }
   .Banner .container .cont-Button button {
     width: 100px;
