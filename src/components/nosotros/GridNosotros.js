@@ -4,29 +4,24 @@ import React from 'react';
 import Tarjeta from './Tarjeta'
 // CSS
 import './../../styles/nosotros/Nosotros.css'
-//Media
-import options from './../../media/iconos/options.png'
-import list from './../../media/iconos/list.png'
-import success from './../../media/iconos/success.png'
-import trophy from './../../media/iconos/trophy.png'
 
 const GridNosotros = () => {
   return (
         <div className="row">
           <div className="col m8 l3 cont">
-            <Tarjeta title="Mision" media={success}/>
+            <Tarjeta title="Mision"/>
           </div>
 
           <div className="col m8 l3 cont">
-            <Tarjeta title="Objetivos" media={list}/>
+            <Tarjeta title="Objetivos"/>
           </div>
 
           <div className="col m8 l3 cont">
-            <Tarjeta title="Estrategia" media={options}/>
+            <Tarjeta title="Estrategia"/>
           </div>
 
           <div className="col m8 l3 cont">
-            <Tarjeta title="Metas" media={trophy}/>
+            <Tarjeta title="Metas"/>
           </div>
         </div>
   )

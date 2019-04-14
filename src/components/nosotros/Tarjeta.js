@@ -39,6 +39,9 @@ const styles = theme => ({
   cardTitle: {
     fontSize: 28,
   },
+  contenido: {
+    backgroundColor: '#f0f0f0',
+  },
   expand: {
     transform: 'rotate(0deg)',
     transition: theme.transitions.create('transform', {
@@ -62,10 +65,6 @@ class Tarjeta extends React.Component {
 
     return (
       <Card className={classes.card}>
-        <div className={classes.prueba}>
-          <img className={classes.ima} src={this.props.media} alt="list"/>
-        </div>
-
         <CardActions className={classes.actions} disableActionSpacing>
           <CardContent>
             <span className={classes.cardTitle}>
@@ -85,7 +84,7 @@ class Tarjeta extends React.Component {
           </IconButton>
         </CardActions>
         <Collapse in={this.state.expanded} timeout="auto" unmountOnExit>
-          <CardContent>
+          <CardContent className={classes.contenido}>
             <Typography paragraph>Los objetivos que se ha planteado la Empresa para el
             corto y mediano plazo son los siguientes:</Typography>
             <Typography paragraph>
