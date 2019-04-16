@@ -35,5 +35,10 @@
     top: calc(10vh - 1vw);
   }
 }
+@media screen and (max-width: 560px) and (orientation: landscape) {
+  .cont-title {
+    background-color: blue;
+  }
+}
 
 /*# sourceMappingURL=Title.css.map */
