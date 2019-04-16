@@ -1,5 +1,5 @@
 import React from 'react'
-import cursos from '../../media/curso.jpg'
+import cursos from '../../media/Inicio/curso.jpg'
 import '../../styles/cursos/Cursos.css'
 
 const Cursos = () => (
