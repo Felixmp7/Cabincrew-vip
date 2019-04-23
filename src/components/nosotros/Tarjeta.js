@@ -19,7 +19,7 @@ const styles = theme => ({
   },
   actions: {
     display: 'flex',
-    backgroundColor: '#f0f0f0',
+    backgroundColor: 'white',
     flexDirection: 'row',
     justifyContent: 'space-between',
   },
