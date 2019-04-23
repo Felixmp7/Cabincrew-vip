@@ -10,10 +10,8 @@ import './../../styles/home/Home.css'
 const enlaces = [
 	'Home',
 	'Nosotros',
-	'Equipo',
 	'Servicios',
 	'Galeria',
-	'Promociones',
 	'Contacto',
 ]
 
