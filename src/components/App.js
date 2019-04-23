@@ -1,7 +1,6 @@
 import React, { Component } from 'react';
 import '../styles/app/App.css';
 import Home from './home/Home';
-import Nosotros from './nosotros/Nosotros'
 import Cursos from './cursos/Cursos'
 import Banner from './banner/Banner'
 import Equipo from './equipo/Equipo'
@@ -35,11 +34,10 @@ class App extends Component {
     return (
       <div className="App">
         <Home />
-        <Nosotros /> {/*Posicionar tarjetas en columna*/}
         <Cursos/>
         <Banner/>
         <Equipo data={this.state.teachers}/>
-        <Footer/> {/* arreglar tamaño del footer en desktop*/}
+        <Footer/>
       </div>
     );
   }
