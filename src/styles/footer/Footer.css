@@ -6,6 +6,7 @@
 }
 .Footer .Footer-position {
   position: absolute;
+  width: 100%;
   bottom: 0;
 }
 .Footer .Footer-position .Footer-info {

@@ -19,7 +19,7 @@ const styles = theme => ({
   },
   actions: {
     display: 'flex',
-    backgroundColor: '#f0f0f0',
+    backgroundColor: 'white',
     flexDirection: 'row',
     justifyContent: 'space-between',
   },
@@ -32,7 +32,6 @@ const styles = theme => ({
   },
   iconContainer: {
     width: 40,
-    borderRight: '2px solid black',
     paddingRight: 10,
     marginRight: 10,
   },
@@ -41,6 +40,7 @@ const styles = theme => ({
   },
   cardTitle: {
     fontSize: 22,
+    fontWeight: 'lighter',
   },
   contenido: {
     backgroundColor: '#f0f0f0',
@@ -71,10 +71,10 @@ class Tarjeta extends React.Component {
         <CardActions className={classes.actions} disableActionSpacing>
           <CardContent style={{width: '80%', padding: 5}}>
             <div className={classes.cardHeader}>
-              <div className={classes.iconContainer}>
+              <div className={classes.iconContainer} style={{borderRight: `${this.props.border} ${this.props.color}`}}>
                 <img className={classes.Img} src={this.props.image} alt={this.props.title}/>
               </div>
-              <span className={classes.cardTitle}>
+              <span className={classes.cardTitle} style={{color: this.props.color}}>
                 {this.props.title}
               </span>
             </div>
