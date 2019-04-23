@@ -40,6 +40,7 @@ const styles = theme => ({
   },
   cardTitle: {
     fontSize: 22,
+    fontWeight: 'lighter',
   },
   contenido: {
     backgroundColor: '#f0f0f0',
@@ -56,10 +57,6 @@ const styles = theme => ({
 });
 
 class Tarjeta extends React.Component {
-  constructor(props){
-    super(props)
-    console.log(props);
-  }
   state = { expanded: false };
 
   handleExpandClick = () => {
