@@ -17,7 +17,7 @@ const GridNosotros = () => {
               title="Mision"
               image={mision}
               color="#f4c138"
-              border={'2px solid #f4c138'}
+              border={'2px solid'}
             />
           </div>
 
@@ -26,7 +26,7 @@ const GridNosotros = () => {
               title="Objetivos"
               image={objetivos}
               color="#a41c28"
-              border={'2px solid #a41c28'}
+              border={'2px solid'}
             />
           </div>
 
@@ -35,7 +35,7 @@ const GridNosotros = () => {
               title="Estrategia"
               image={estrategia}
               color="#476dbb"
-              border={'2px solid #476dbb'}
+              border={'2px solid'}
             />
           </div>
 
@@ -44,7 +44,7 @@ const GridNosotros = () => {
               title="Metas"
               image={metas}
               color="#4daf6b"
-              border={'2px solid #4daf6b'}
+              border={'2px solid'}
             />
           </div>
         </div>

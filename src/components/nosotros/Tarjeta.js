@@ -71,7 +71,7 @@ class Tarjeta extends React.Component {
         <CardActions className={classes.actions} disableActionSpacing>
           <CardContent style={{width: '80%', padding: 5}}>
             <div className={classes.cardHeader}>
-              <div className={classes.iconContainer} style={{borderRight: this.props.border}}>
+              <div className={classes.iconContainer} style={{borderRight: `${this.props.border} ${this.props.color}`}}>
                 <img className={classes.Img} src={this.props.image} alt={this.props.title}/>
               </div>
               <span className={classes.cardTitle} style={{color: this.props.color}}>
