@@ -32,7 +32,6 @@ const styles = theme => ({
   },
   iconContainer: {
     width: 40,
-    borderRight: '2px solid black',
     paddingRight: 10,
     marginRight: 10,
   },
@@ -57,6 +56,10 @@ const styles = theme => ({
 });
 
 class Tarjeta extends React.Component {
+  constructor(props){
+    super(props)
+    console.log(props);
+  }
   state = { expanded: false };
 
   handleExpandClick = () => {
@@ -71,10 +74,10 @@ class Tarjeta extends React.Component {
         <CardActions className={classes.actions} disableActionSpacing>
           <CardContent style={{width: '80%', padding: 5}}>
             <div className={classes.cardHeader}>
-              <div className={classes.iconContainer}>
+              <div className={classes.iconContainer} style={{borderRight: this.props.border}}>
                 <img className={classes.Img} src={this.props.image} alt={this.props.title}/>
               </div>
-              <span className={classes.cardTitle}>
+              <span className={classes.cardTitle} style={{color: this.props.color}}>
                 {this.props.title}
               </span>
             </div>

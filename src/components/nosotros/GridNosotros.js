@@ -16,7 +16,8 @@ const GridNosotros = () => {
             <Tarjeta
               title="Mision"
               image={mision}
-              color="yellow"
+              color="#f4c138"
+              border={'2px solid #f4c138'}
             />
           </div>
 
@@ -24,7 +25,8 @@ const GridNosotros = () => {
             <Tarjeta
               title="Objetivos"
               image={objetivos}
-              color="red"
+              color="#a41c28"
+              border={'2px solid #a41c28'}
             />
           </div>
 
@@ -32,7 +34,8 @@ const GridNosotros = () => {
             <Tarjeta
               title="Estrategia"
               image={estrategia}
-              color="blue"
+              color="#476dbb"
+              border={'2px solid #476dbb'}
             />
           </div>
 
@@ -40,7 +43,8 @@ const GridNosotros = () => {
             <Tarjeta
               title="Metas"
               image={metas}
-              color="green"
+              color="#4daf6b"
+              border={'2px solid #4daf6b'}
             />
           </div>
         </div>
