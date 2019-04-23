@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import '../styles/app/App.css';
-import Home from './home/Home';
+import Header from './home/Header';
 import Cursos from './cursos/Cursos'
 import Banner from './banner/Banner'
 import Equipo from './equipo/Equipo'
@@ -33,7 +33,7 @@ class App extends Component {
   render() {
     return (
       <div className="App">
-        <Home />
+        <Header />
         <Cursos/>
         <Banner/>
         <Equipo data={this.state.teachers}/>

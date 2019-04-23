@@ -16,7 +16,7 @@ const enlaces = [
 ]
 
 
-const Home = () => {
+const Header = () => {
 	return (
 		<div className="cont-home">
 			<Navbar enlaces={enlaces} />
@@ -26,4 +26,4 @@ const Home = () => {
 	);
 }
 
-export default Home;
+export default Header;
