@@ -1,20 +1,22 @@
-//Dependencies
-import React, { Component } from 'react'
-//Components
-import GridNosotros from './GridNosotros'
-//CSS
-import './../../styles/nosotros/Nosotros.css'
+import React, {Component} from 'react'
+import ContenedorTarjetas from './ContenedorTarjetas'
+import Banner from '../banner/Banner'
+import Equipo from './Equipo'
 
 class Nosotros extends Component {
-	render() {
-		return (
-			<div className="cont-nosotros">
-				<div className="cont-columnas">
-					<GridNosotros/>
-				</div>
-			</div>
-		);
-	}
+  render () {
+    return (
+        <React.Fragment>
+          <Banner
+            title="Te brindamos lo mejor!"
+            height={true}
+            classNameDynamic="BannerNosotros"
+          />
+          <ContenedorTarjetas/>
+          <Equipo/>
+        </React.Fragment>
+    )
+  }
 }
 
-export default Nosotros;
+export default Nosotros

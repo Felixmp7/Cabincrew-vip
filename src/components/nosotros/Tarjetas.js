@@ -1,7 +1,7 @@
 // Dependencies
 import React from 'react';
 // Components
-import Tarjeta from './Tarjeta'
+import Tarjeta from './Plantilla-Tarjeta'
 // CSS
 import './../../styles/nosotros/Nosotros.css'
 import mision from '../../media/Nosotros/iconos/mision.png'
@@ -9,7 +9,7 @@ import objetivos from '../../media/Nosotros/iconos/objetivos.png'
 import estrategia from '../../media/Nosotros/iconos/estrategia.png'
 import metas from '../../media/Nosotros/iconos/metas.png'
 
-const GridNosotros = () => {
+const Tarjetas = () => {
   return (
     <div className="cont">
       <div className="cont-tarjeta">
@@ -51,4 +51,4 @@ const GridNosotros = () => {
     </div>
   )
 }
-export default GridNosotros;
+export default Tarjetas;
