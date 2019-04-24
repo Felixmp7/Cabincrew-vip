@@ -1,7 +1,7 @@
 // Dependencies
 import React from 'react';
 // Components
-import Tarjeta from './Tarjeta'
+import PlantillaTarjeta from './Plantilla-Tarjeta'
 // CSS
 import './../../styles/nosotros/Nosotros.css'
 import mision from '../../media/Nosotros/iconos/mision.png'
@@ -13,7 +13,7 @@ const GridNosotros = () => {
   return (
     <div className="cont">
       <div className="cont-tarjeta">
-        <Tarjeta
+        <PlantillaTarjeta
           title="Mision"
           image={mision}
           color="#f4c138"
@@ -22,7 +22,7 @@ const GridNosotros = () => {
       </div>
 
       <div className="cont-tarjeta">
-        <Tarjeta
+        <PlantillaTarjeta
           title="Objetivos"
           image={objetivos}
           color="#a41c28"
@@ -31,7 +31,7 @@ const GridNosotros = () => {
       </div>
 
       <div className="cont-tarjeta">
-        <Tarjeta
+        <PlantillaTarjeta
           title="Estrategia"
           image={estrategia}
           color="#476dbb"
@@ -40,7 +40,7 @@ const GridNosotros = () => {
       </div>
 
       <div className="cont-tarjeta">
-        <Tarjeta
+        <PlantillaTarjeta
           title="Metas"
           image={metas}
           color="#4daf6b"

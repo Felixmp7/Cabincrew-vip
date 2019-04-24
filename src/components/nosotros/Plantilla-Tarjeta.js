@@ -56,7 +56,7 @@ const styles = theme => ({
   },
 });
 
-class Tarjeta extends React.Component {
+class PlantillaTarjeta extends React.Component {
   state = { expanded: false };
 
   handleExpandClick = () => {
@@ -114,8 +114,8 @@ class Tarjeta extends React.Component {
   }
 }
 
-Tarjeta.propTypes = {
+PlantillaTarjeta.propTypes = {
   classes: PropTypes.object.isRequired,
 };
 
-export default withStyles(styles)(Tarjeta);
+export default withStyles(styles)(PlantillaTarjeta);
