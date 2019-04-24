@@ -10,31 +10,49 @@ const data = [
     name: 'Lic. Diana Gomez',
     ocupation: 'Directora',
     img: p1,
+    materias:[
+      'Apariencia Personal','Servicio a Bordo','Obligaciones y Responsabilidades',
+    ],
   },
   {
     name: 'Cap. Martin Borges',
     ocupation: 'Director Ejecutivo',
     img: p2,
+    materias:[
+      'Apariencia Personal','Servicio a Bordo','Obligaciones y Responsabilidades',
+    ],
   },
   {
     name: 'Dra. Ana Yolanda',
     ocupation: 'Directora de SMS',
     img: p3,
+    materias:[
+      'Apariencia Personal','Servicio a Bordo','Obligaciones y Responsabilidades',
+    ],
   },
   {
     name: 'Lic. Diana Gomez',
     ocupation: 'Directora',
     img: p1,
+    materias:[
+      'Apariencia Personal','Servicio a Bordo','Obligaciones y Responsabilidades',
+    ],
   },
   {
     name: 'Cap. Martin Borges',
     ocupation: 'Director Ejecutivo',
     img: p2,
+    materias:[
+      'Apariencia Personal','Servicio a Bordo','Obligaciones y Responsabilidades',
+    ],
   },
   {
     name: 'Dra. Ana Yolanda',
     ocupation: 'Directora de SMS',
     img: p3,
+    materias:[
+      'Apariencia Personal','Servicio a Bordo','Obligaciones y Responsabilidades',
+    ],
   },
 ]
 
