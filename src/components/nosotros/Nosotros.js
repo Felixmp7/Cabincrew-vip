@@ -4,9 +4,9 @@ import Tarjetas from './Tarjetas'
 class Nosotros extends Component {
   render () {
     return (
-      <div>
-        <Tarjetas/>
-      </div>
+        <React.Fragment>
+          <Tarjetas/>
+        </React.Fragment>
     )
   }
 }
