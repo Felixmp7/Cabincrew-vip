@@ -1,20 +1,54 @@
-//Dependencies
-import React, { Component } from 'react'
-//Components
-import GridNosotros from './GridNosotros'
-//CSS
+// Dependencies
+import React from 'react';
+// Components
+import Tarjeta from './Plantilla-Tarjeta'
+// CSS
 import './../../styles/nosotros/Nosotros.css'
+import mision from '../../media/Nosotros/iconos/mision.png'
+import objetivos from '../../media/Nosotros/iconos/objetivos.png'
+import estrategia from '../../media/Nosotros/iconos/estrategia.png'
+import metas from '../../media/Nosotros/iconos/metas.png'
 
-class Tarjetas extends Component {
-	render() {
-		return (
-			<div className="cont-nosotros">
-				<div className="cont-columnas">
-					<GridNosotros/>
-				</div>
-			</div>
-		);
-	}
+const Tarjetas = () => {
+  return (
+    <div className="cont">
+      <div className="cont-tarjeta">
+        <Tarjeta
+          title="Mision"
+          image={mision}
+          color="#f4c138"
+          border={'2px solid'}
+        />
+      </div>
+
+      <div className="cont-tarjeta">
+        <Tarjeta
+          title="Objetivos"
+          image={objetivos}
+          color="#a41c28"
+          border={'2px solid'}
+        />
+      </div>
+
+      <div className="cont-tarjeta">
+        <Tarjeta
+          title="Estrategia"
+          image={estrategia}
+          color="#476dbb"
+          border={'2px solid'}
+        />
+      </div>
+
+      <div className="cont-tarjeta">
+        <Tarjeta
+          title="Metas"
+          image={metas}
+          color="#4daf6b"
+          border={'2px solid'}
+        />
+      </div>
+
+    </div>
+  )
 }
-
 export default Tarjetas;

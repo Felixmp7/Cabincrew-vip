@@ -1,5 +1,5 @@
 import React, {Component} from 'react'
-import Tarjetas from './Tarjetas'
+import ContenedorTarjetas from './ContenedorTarjetas'
 import Banner from '../banner/Banner'
 
 class Nosotros extends Component {
@@ -11,7 +11,7 @@ class Nosotros extends Component {
             height={true}
             classNameDynamic="BannerNosotros"
           />
-          <Tarjetas/>
+          <ContenedorTarjetas/>
         </React.Fragment>
     )
   }
