@@ -2,8 +2,8 @@ import React from 'react'
 import '../../styles/banner/Banner.css'
 
 const Banner = props => (
-  <div className="Banner">
-    <div className={`container ${props.classNameDynamic}`}>
+  <div className={`Banner ${props.classNameDynamic}`}>
+    <div className="container">
       <h2>{props.title}</h2>
       <p>{props.contain}</p>
       {
@@ -11,7 +11,7 @@ const Banner = props => (
         <div className="cont-Button">
           <button>{props.titleButton}</button>
         </div> :
-        console.log('no hay nada')
+        console.log(null)
       }
     </div>
   </div>
