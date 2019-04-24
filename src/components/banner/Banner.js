@@ -1,10 +1,14 @@
 import React from 'react'
-import '../../styles/home/banner/Banner.css'
+import '../../styles/banner/Banner.css'
 
 const Banner = props => (
   <div className="Banner">
     <div className="container">
-      <h2>{props.title}</h2>
+      {
+        props.height?
+        <h2 className={props.classNameDynamic}>{props.title}</h2>:
+        <h2>{props.title}</h2>
+      }
       <p>{props.contain}</p>
       {
         props.titleButton ?
