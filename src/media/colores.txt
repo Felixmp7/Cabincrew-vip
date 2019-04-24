@@ -1,0 +1,12 @@
+Colores Cabin Crew
+___________________
+
+Vinotinto: a41c28
+Azul: 476dbb
+Verde: 4daf6b
+Amarillo: f4c138
+
+Gris claro: a6a7ab
+Gris Oscuro: 2e2e2e
+
+Generalmente para los textos, en vez de negro uso el Gris oscuro.
