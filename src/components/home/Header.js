@@ -5,7 +5,7 @@ import Navbar from './Navbar'
 import Title from './Title'
 import GetStartedButton from './GetStartedButton'
 //CSS
-import './../../styles/home/Home.css'
+import '../../styles/home/Home.css'
 
 const enlaces = [
 	'Home',

@@ -1,4 +1,7 @@
 import React, {Component} from 'react'
+//CSS
+import '../../styles/home/Home-Container.css'
+//Components
 import Header from './Header';
 import Cursos from './cursos/Cursos'
 import Banner from './banner/Banner'
@@ -31,7 +34,7 @@ class Home extends Component{
   }
   render(){
     return (
-      <div className="Home-container">
+      <div className="Header-container">
         <Header />
         <Cursos/>
         <Banner/>
