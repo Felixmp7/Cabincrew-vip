@@ -1,6 +1,6 @@
 import React from 'react'
-import cursos from '../../media/Inicio/curso.jpg'
-import '../../styles/cursos/Cursos.css'
+import cursos from '../../../media/Inicio/curso.jpg'
+import '../../../styles/home/cursos/Cursos.css'
 
 const Cursos = () => (
   <div className="Curso">

@@ -8,6 +8,9 @@ import '../../styles/home/navbar/Navbar.css'
 import BurgerMenu from './navbar-mobile/BurgerMenu'
 
 class Navbar extends Component {
+	prevent = e => {
+		e.preventDefault()
+	}
 	render(){
 		if (isWidthUp('md', this.props.width)) {
 			return (
@@ -18,7 +21,11 @@ class Navbar extends Component {
 							{
 								this.props.enlaces.map((enlace, index) =>{
 									return(
-										<li key={index}>{enlace}</li>
+										<a
+											href="#"
+											key={index}
+											onClick={this.prevent}
+											>{enlace}</a>
 									)
 								})
 							}
