@@ -1,6 +1,7 @@
 import React, {Component} from 'react'
 import ContenedorTarjetas from './ContenedorTarjetas'
 import Banner from '../banner/Banner'
+import Equipo from './Equipo'
 
 class Nosotros extends Component {
   render () {
@@ -12,6 +13,7 @@ class Nosotros extends Component {
             classNameDynamic="BannerNosotros"
           />
           <ContenedorTarjetas/>
+          <Equipo/>
         </React.Fragment>
     )
   }
