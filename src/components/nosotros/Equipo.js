@@ -1,9 +1,14 @@
-import React from 'react'
+import React from 'react';
+import Teacher from './Plantilla-Equipo'
 
-const Equipo = props => {
-  return (
-    <div>Hola</div>
-  );
+class Equipo extends React.Component {
+  render() {
+    return (
+      <div>
+        <Teacher/>
+      </div>
+    )
+  }
 }
 
 export default Equipo

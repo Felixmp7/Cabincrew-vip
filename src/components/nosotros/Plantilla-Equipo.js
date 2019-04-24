@@ -43,7 +43,7 @@ const styles = theme => ({
   },
 });
 
-class RecipeReviewCard extends React.Component {
+class PlantillaEquipo extends React.Component {
   state = { expanded: false };
 
   handleExpandClick = () => {
@@ -130,8 +130,8 @@ class RecipeReviewCard extends React.Component {
   }
 }
 
-RecipeReviewCard.propTypes = {
+PlantillaEquipo.propTypes = {
   classes: PropTypes.object.isRequired,
 };
 
-export default withStyles(styles)(RecipeReviewCard);
+export default withStyles(styles)(PlantillaEquipo);
