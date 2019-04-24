@@ -7,11 +7,10 @@ const Banner = props => (
       <h2>{props.title}</h2>
       <p>{props.contain}</p>
       {
-        props.titleButton ?
+        props.titleButton &&
         <div className="cont-Button">
           <button>{props.titleButton}</button>
-        </div> :
-        console.log(null)
+        </div>
       }
     </div>
   </div>
