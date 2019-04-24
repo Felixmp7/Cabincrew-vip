@@ -1,6 +1,6 @@
 import React, {Component} from 'react'
-import plain from '../../media/Inicio/2-Avion.jpg'
-import '../../styles/equipo/Equipo.css'
+import plain from '../../../media/Inicio/2-Avion.jpg'
+import '../../../styles/equipo/Equipo.css'
 
 class Equipo extends Component{
   render(){
