@@ -1,12 +1,21 @@
 import React, { Component } from 'react';
 import '../styles/app/App.css';
-import Home from './home/Home'
+import Navbar from './navbar/Navbar'
+//import Home from './home/Home'
 
 class App extends Component {
+  state = [
+  	'Home',
+  	'Nosotros',
+  	'Servicios',
+  	'Galeria',
+  	'Contacto',
+  ]
   render() {
     return (
       <div className="App">
-        <Home/>
+  			<Navbar enlaces={this.state} />
+        {/* <Home/> */}
       </div>
     );
   }
