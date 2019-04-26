@@ -1,4 +1,5 @@
 import React from 'react'
+import '../../styles/nosotros/Teachers.css'
 
 const TeacherCard = props => (
   <div key={props.key} className="TeacherCard">
@@ -10,6 +11,7 @@ const TeacherCard = props => (
       <h6>{props.ocupation}</h6>
     </div>
     <div className="Materias">
+      <h6>Instrucción de las Materias</h6>
       {
         props.materias.map( materia =>{
           return (

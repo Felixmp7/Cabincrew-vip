@@ -1,0 +1,28 @@
+.TeacherCard {
+  width: 300px;
+  height: auto;
+  border: 2px solid #eee;
+  text-align: center;
+}
+.TeacherCard .TeacherImage {
+  margin: auto;
+  width: 240px;
+}
+.TeacherCard .TeacherImage img {
+  width: 100%;
+}
+.TeacherCard .TeacherInfo h5 {
+  color: #63101b;
+}
+.TeacherCard .Materias {
+  background-color: #f6f6f6;
+  width: 100%;
+}
+.TeacherCard .Materias h6 {
+  width: 100%;
+  padding: 10px 5px;
+  background-color: #0f3f68;
+  color: white;
+}
+
+/*# sourceMappingURL=Teachers.css.map */
