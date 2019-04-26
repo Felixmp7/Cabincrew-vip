@@ -1,5 +1,6 @@
 //Dependencies
 import React, { Component } from 'react'
+import {Link} from 'react-router-dom'
 import withWidth, { isWidthUp } from '@material-ui/core/withWidth'
 //CSS
 import 'materialize-css/dist/css/materialize.min.css'
@@ -8,9 +9,6 @@ import '../../styles/home/navbar/Navbar.css'
 import BurgerMenu from './navbar-mobile/BurgerMenu'
 
 class Navbar extends Component {
-	prevent = e => {
-		e.preventDefault()
-	}
 	render(){
 		if (isWidthUp('md', this.props.width)) {
 			return (
@@ -20,13 +18,22 @@ class Navbar extends Component {
 							<ul className="lista">
 							{
 								this.props.enlaces.map((enlace, index) =>{
-									return(
-										<a
-											href="#"
-											key={index}
-											onClick={this.prevent}
-											>{enlace}</a>
-									)
+									if (index === 0) {
+										return(
+											<Link
+												to="/"
+												key={index}
+												>{enlace}</Link>
+											)
+									}
+									else {
+										return(
+											<Link
+												to={`/${enlace.toLowerCase()}`}
+												key={index}
+												>{enlace}</Link>
+											)
+									}
 								})
 							}
 							</ul>
