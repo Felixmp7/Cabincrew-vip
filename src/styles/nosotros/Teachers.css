@@ -1,25 +1,36 @@
-.TeacherCard {
+.Equipo {
+  width: 100%;
+  padding: 20px;
+}
+.Equipo .Teachers-Container {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+.Equipo .Teachers-Container .TeacherCard {
   width: 300px;
   height: auto;
   border: 2px solid #eee;
   text-align: center;
   margin: 20px 40px;
 }
-.TeacherCard .TeacherImage {
+.Equipo .Teachers-Container .TeacherCard .TeacherImage {
   margin: auto;
   width: 240px;
 }
-.TeacherCard .TeacherImage img {
+.Equipo .Teachers-Container .TeacherCard .TeacherImage img {
   width: 100%;
 }
-.TeacherCard .TeacherInfo h5 {
+.Equipo .Teachers-Container .TeacherCard .TeacherInfo h5 {
   color: #63101b;
 }
-.TeacherCard .Materias {
+.Equipo .Teachers-Container .TeacherCard .Materias {
   background-color: #f6f6f6;
   width: 100%;
 }
-.TeacherCard .Materias h6 {
+.Equipo .Teachers-Container .TeacherCard .Materias h6 {
   width: 100%;
   padding: 10px 5px;
   background-color: #0f3f68;
