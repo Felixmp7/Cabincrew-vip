@@ -1,5 +1,7 @@
 import React from 'react';
 import TeacherCard from './TeacherCard'
+//CSS
+import '../../styles/nosotros/Teachers.css'
 // Data
 import p1 from '../../media/1-Persona.png'
 import p2 from '../../media/2-Persona.png'
