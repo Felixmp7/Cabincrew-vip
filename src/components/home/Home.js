@@ -37,7 +37,12 @@ class Home extends Component{
       <div className="Header-container">
         <Header />
         <Cursos/>
-        <Banner/>
+        <Banner
+          title="Nuestro Equipo Profesional"
+          contain="Contamos con un capital humano excepcional, certificados y
+                  con mayor experiencia en el área de la tripulacion de cabina"
+          titleButton="Conócenos"
+        />
         <Equipo data={this.state.teachers}/>
         <Footer/>
       </div>
