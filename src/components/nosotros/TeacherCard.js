@@ -13,9 +13,9 @@ const TeacherCard = props => (
     <div className="Materias">
       <h6>Instrucción de las Materias</h6>
       {
-        props.materias.map( materia =>{
+        props.materias.map( (materia, key) =>{
           return (
-            <p>{materia}</p>
+            <p key={key}>{materia}</p>
           )
         })
       }
