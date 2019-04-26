@@ -5,20 +5,21 @@
 .Equipo .Teachers-Container {
   width: 100%;
   display: flex;
-  justify-content: center;
+  justify-content: space-evenly;
   align-items: center;
   flex-wrap: wrap;
+  margin: auto;
 }
 .Equipo .Teachers-Container .TeacherCard {
   width: 300px;
   height: auto;
   border: 2px solid #eee;
   text-align: center;
-  margin: 20px 40px;
+  margin: 20px;
 }
 .Equipo .Teachers-Container .TeacherCard .TeacherImage {
   margin: auto;
-  width: 240px;
+  width: 60%;
 }
 .Equipo .Teachers-Container .TeacherCard .TeacherImage img {
   width: 100%;
