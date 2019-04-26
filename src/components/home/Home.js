@@ -4,7 +4,7 @@ import '../../styles/home/Home-Container.css'
 //Components
 import Header from './Header';
 import Cursos from './cursos/Cursos'
-import Banner from './banner/Banner'
+import Banner from '../banner/Banner'
 import Equipo from './equipo/Equipo'
 import Footer from './footer/Footer'
 //Media
