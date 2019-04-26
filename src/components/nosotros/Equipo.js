@@ -1,5 +1,5 @@
 import React from 'react';
-import Teacher from './Plantilla-Equipo'
+import TeacherCard from './TeacherCard'
 // Data
 import p1 from '../../media/1-Persona.png'
 import p2 from '../../media/2-Persona.png'
@@ -64,7 +64,7 @@ class Equipo extends React.Component {
           {
             data.map((teacher,index) =>{
               return (
-                <Teacher
+                <TeacherCard
                   image={teacher.img}
                   key={index}
                   title={teacher.name}
