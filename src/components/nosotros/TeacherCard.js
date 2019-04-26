@@ -2,7 +2,7 @@ import React from 'react'
 import '../../styles/nosotros/Teachers.css'
 
 const TeacherCard = props => (
-  <div key={props.key} className="TeacherCard">
+  <div className="TeacherCard">
     <div className="TeacherImage">
       <img src={props.image} alt={props.ocupation}/>
     </div>
