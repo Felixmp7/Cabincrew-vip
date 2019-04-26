@@ -1,5 +1,6 @@
 //Dependencies
 import React from 'react'
+import { Link } from 'react-router-dom'
 import classNames from 'classnames'
 import { withStyles } from '@material-ui/core/styles'
 import Drawer from '@material-ui/core/Drawer'
@@ -124,11 +125,11 @@ class BurgerMenu extends React.Component {
           <Divider />
           <List>
               <ListItem button>
-                <ListItemText primary={'Home'} onClick={this.handleDrawerClose} />
+                <Link to="/"><ListItemText primary={'Home'} onClick={this.handleDrawerClose} /></Link>
               </ListItem>
 
               <ListItem button>
-                <ListItemText primary={'Nosotros'} onClick={this.handleDrawerClose} />
+                <Link to="/nosotros"><ListItemText primary={'Nosotros'} onClick={this.handleDrawerClose} /></Link>
               </ListItem>
 
               <ListItem button>
