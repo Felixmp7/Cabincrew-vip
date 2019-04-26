@@ -70,6 +70,7 @@ class Equipo extends React.Component {
                   title={teacher.name}
                   ocupation={teacher.ocupation}
                   name={teacher.name}
+                  materias={teacher.materias}
                 />
               )
             })

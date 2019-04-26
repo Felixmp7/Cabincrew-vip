@@ -9,6 +9,15 @@ const TeacherCard = props => (
       <h5>{props.name}</h5>
       <h6>{props.ocupation}</h6>
     </div>
+    <div className="Materias">
+      {
+        props.materias.map( materia =>{
+          return (
+            <p>{materia}</p>
+          )
+        })
+      }
+    </div>
   </div>
 )
 
