@@ -15,7 +15,7 @@ const TeacherCard = props => (
       {
         props.materias.map( (materia, key) =>{
           return (
-            <p key={key}>{materia}</p>
+            <p key={key}>-{materia}</p>
           )
         })
       }

@@ -11,13 +11,14 @@
   margin: auto;
 }
 .Equipo .Teachers-Container .TeacherCard {
-  width: 300px;
+  width: 400px;
   height: auto;
   border: 2px solid #eee;
   text-align: center;
   margin: 20px;
 }
 .Equipo .Teachers-Container .TeacherCard .TeacherImage {
+  padding: 10px;
   margin: auto;
   width: 60%;
 }
@@ -30,6 +31,7 @@
 .Equipo .Teachers-Container .TeacherCard .Materias {
   background-color: #f6f6f6;
   width: 100%;
+  height: 100%;
 }
 .Equipo .Teachers-Container .TeacherCard .Materias h6 {
   width: 100%;
