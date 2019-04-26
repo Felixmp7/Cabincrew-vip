@@ -9,7 +9,6 @@ class Nosotros extends Component {
         <React.Fragment>
           <Banner
             title="Te brindamos lo mejor!"
-            height={true}
             classNameDynamic="BannerNosotros"
           />
           <ContenedorTarjetas/>

@@ -4,7 +4,7 @@ import '../../styles/home/Home-Container.css'
 //Components
 import Header from './Header';
 import Cursos from './cursos/Cursos'
-import Banner from './banner/Banner'
+import Banner from '../banner/Banner'
 import Equipo from './equipo/Equipo'
 import Footer from './footer/Footer'
 //Media
@@ -37,7 +37,12 @@ class Home extends Component{
       <div className="Header-container">
         <Header />
         <Cursos/>
-        <Banner/>
+        <Banner
+          title="Nuestro Equipo Profesional"
+          contain="Contamos con un capital humano excepcional, certificados y
+                  con mayor experiencia en el área de la tripulacion de cabina"
+          titleButton="Conócenos"
+        />
         <Equipo data={this.state.teachers}/>
         <Footer/>
       </div>
