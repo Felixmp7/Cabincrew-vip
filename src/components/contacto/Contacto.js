@@ -1,5 +1,5 @@
 import React from 'react'
-// import '../../styles/contacto/Contacto.css'
+import '../../styles/contacto/Contacto.css'
 
 const Contacto = () => (
   <div className="Contacto">

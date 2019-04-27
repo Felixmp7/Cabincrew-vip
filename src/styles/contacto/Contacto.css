@@ -1,0 +1,32 @@
+.Contacto {
+  width: 100%;
+}
+.Contacto .Contacto-Header {
+  width: 100%;
+  background-image: url("../../media/contacto/ayudar.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.Contacto .Contacto-Header .Title {
+  width: 100%;
+  margin: auto;
+  text-align: center;
+  font-family: "Lato";
+}
+.Contacto .Contacto-Header .Title h3 {
+  color: white;
+  font-weight: bold;
+  font-size: 62px;
+}
+.Contacto .Contacto-Header .Subtitle {
+  width: 100%;
+  margin: auto;
+  text-align: center;
+  font-family: "Lato";
+}
+.Contacto .Contacto-Header .Subtitle p {
+  color: #fac138;
+  font-size: 22px;
+}
+
+/*# sourceMappingURL=Contacto.css.map */
