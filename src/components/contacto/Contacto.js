@@ -16,8 +16,10 @@ const Contacto = () => (
       </div>
       <div className="Form">
         <form>
-          <input type="text" placeholder="Nombre"/>
-          <input type="text" placeholder="Apellido" />
+          <div className="Especial">
+            <input className="Medio" type="text" placeholder="Nombre"/>
+            <input className="Medio" type="text" placeholder="Apellido" />
+          </div>
           <input type="email" placeholder="Correo Electrónico" />
           <input type="text" placeholder="Numero de Teléfono" />
           <input type="text" placeholder="Escribe tu solicitud" />

@@ -28,5 +28,21 @@
   color: #fac138;
   font-size: 22px;
 }
+.Contacto .Contacto-Header .Form {
+  width: 100%;
+  padding: 40px;
+}
+.Contacto .Contacto-Header .Form form {
+  width: 50%;
+  margin: auto;
+}
+.Contacto .Contacto-Header .Form form .Especial {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-between;
+}
+.Contacto .Contacto-Header .Form form .Especial .Medio {
+  width: 45%;
+}
 
 /*# sourceMappingURL=Contacto.css.map */
