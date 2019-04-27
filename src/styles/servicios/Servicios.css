@@ -26,23 +26,35 @@
   width: 100%;
 }
 .Servicios .Servicios-Contenido {
-  width: inherit;
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
 }
 .Servicios .Servicios-Contenido .Bloque {
   width: 50%;
-  padding: 10px;
+  padding: 25px 50px;
 }
 .Servicios .Servicios-Contenido .Bloque .Bloque-Title {
-  font-size: 22px;
+  font-size: 36px;
 }
 .Servicios .Servicios-Contenido .Bloque .Bloque-Title.Rojo {
-  color: red;
+  color: #a41c28;
 }
 .Servicios .Servicios-Contenido .Bloque .Bloque-Title.Verde {
-  color: green;
+  color: #4daf6b;
 }
 .Servicios .Servicios-Contenido .Bloque .Bloque-Title.Azul {
-  color: blue;
+  color: #476dbb;
+}
+.Servicios .Servicios-Contenido .Bloque-Imagen {
+  width: 50%;
+  text-align: center;
+}
+.Servicios .Servicios-Contenido .Bloque-Imagen img {
+  width: 70%;
 }
 
 /*# sourceMappingURL=Servicios.css.map */

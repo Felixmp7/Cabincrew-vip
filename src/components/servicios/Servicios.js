@@ -1,6 +1,7 @@
 import React from 'react'
 import '../../styles/servicios/Servicios.css'
 import background from '../../media/servicio/estudiantes.jpg'
+import libros from '../../media/servicio/curso-libros.jpg'
 
 const Servicios = () => {
   return (
@@ -48,6 +49,9 @@ const Servicios = () => {
             id consequuntur laborum, aperiam! Dolorem ea error ipsa exercitationem amet,
             id, sed suscipit officiis!
           </p>
+        </div>
+        <div className="Bloque-Imagen">
+          <img src={libros} alt="curso-libros"/>
         </div>
       </div>
     </div>
