@@ -1,5 +1,6 @@
 import React from 'react'
 import '../../styles/contacto/Contacto.css'
+import Inac from '../../media/contacto/logotipo-inac.png'
 
 const Contacto = () => (
   <div className="Contacto">
@@ -26,8 +27,14 @@ const Contacto = () => (
         </form>
       </div>
     </div>
-    <div className="Contacto-Info"></div>
-    <div className="Contacto-Footer"></div>
+    <div className="Contacto-Info">
+
+    </div>
+    <div className="Contacto-Footer">
+      <div className="Image-Position">
+        <img src={Inac} alt="Logo Inac"/>
+      </div>
+    </div>
   </div>
 )
 
