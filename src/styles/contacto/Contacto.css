@@ -2,6 +2,7 @@
   width: 100%;
 }
 .Contacto .Contacto-Header {
+  padding: 100px 20px;
   width: 100%;
   background-image: url("../../media/contacto/ayudar.png");
   background-size: cover;
@@ -35,6 +36,9 @@
 .Contacto .Contacto-Header .Form form {
   width: 50%;
   margin: auto;
+}
+.Contacto .Contacto-Header .Form form input {
+  color: white;
 }
 .Contacto .Contacto-Header .Form form .Especial {
   display: flex;
