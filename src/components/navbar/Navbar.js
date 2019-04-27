@@ -4,7 +4,7 @@ import {Link} from 'react-router-dom'
 import withWidth, { isWidthUp } from '@material-ui/core/withWidth'
 //CSS
 import 'materialize-css/dist/css/materialize.min.css'
-import '../../styles/home/navbar/Navbar.css'
+import '../../styles/navbar/Navbar.css'
 //Components
 import BurgerMenu from './navbar-mobile/BurgerMenu'
 

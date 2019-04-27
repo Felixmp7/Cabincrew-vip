@@ -5,7 +5,7 @@
   z-index: 3;
 }
 .nav-position .nav-cont {
-  width: 400px;
+  width: 480px;
   margin: 5px auto;
 }
 .nav-position .nav-cont .menu {
@@ -17,11 +17,12 @@
   display: flex;
   flex-flow: row wrap;
   justify-content: space-around;
+  font-family: "Comfortaa";
 }
 .nav-position .nav-cont .menu .lista a {
   color: black;
   font-size: 16px;
-  padding: 0 5px;
+  padding: 0 10px;
 }
 .nav-position .nav-cont .menu .lista a:hover {
   background-color: rgba(1, 1, 1, 0.05);
