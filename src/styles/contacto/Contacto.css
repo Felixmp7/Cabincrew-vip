@@ -107,4 +107,13 @@
   border: 0;
 }
 
+.Contacto-Footer {
+  width: 100%;
+}
+.Contacto-Footer .Image-Position {
+  width: 80%;
+  margin: auto;
+  text-align: center;
+}
+
 /*# sourceMappingURL=Contacto.css.map */
