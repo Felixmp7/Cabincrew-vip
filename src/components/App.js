@@ -5,6 +5,7 @@ import Navbar from './navbar/Navbar'
 import Home from './home/Home'
 import Nosotros from './nosotros/Nosotros'
 import Servicios from './servicios/Servicios'
+import Contacto from './contacto/Contacto '
 
 const enlaces = [
   'Home',
@@ -25,7 +26,7 @@ class App extends Component {
             <Route exact path="/nosotros" component={Nosotros}/>
             <Route exact path="/servicios" component={Servicios}/>
             {/* <Route exact path="/galeria" component={Galeria}/> */}
-            {/* <Route exact path="/contacto" component={Contacto}/> */}
+            <Route exact path="/contacto" component={Contacto}/>
           </Switch>
         </BrowserRouter>
       </div>
