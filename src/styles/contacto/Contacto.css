@@ -49,4 +49,53 @@
   width: 45%;
 }
 
+.Contacto-Info {
+  width: 100%;
+  padding: 40px;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+  margin: auto;
+}
+.Contacto-Info .Izquierda, .Contacto-Info .Derecha {
+  width: 50%;
+}
+.Contacto-Info .Izquierda .Card, .Contacto-Info .Derecha .Card {
+  width: 80%;
+  border: 1px solid black;
+  margin: 50px 0;
+  text-align: center;
+}
+.Contacto-Info .Izquierda .Card > p, .Contacto-Info .Derecha .Card > p {
+  padding: 0 80px;
+}
+.Contacto-Info .Izquierda .Card .Header, .Contacto-Info .Derecha .Card .Header {
+  border: 1px solid black;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+  align-items: center;
+}
+.Contacto-Info .Izquierda .Card .Header .Item, .Contacto-Info .Derecha .Card .Header .Item {
+  margin: 0 20px;
+}
+.Contacto-Info .Izquierda .Card .Header .Item img, .Contacto-Info .Derecha .Card .Header .Item img {
+  width: 80px;
+}
+.Contacto-Info .Izquierda .Card .Header .Item p, .Contacto-Info .Derecha .Card .Header .Item p {
+  font-size: 32px;
+}
+.Contacto-Info .Izquierda .Card .Header .Item .Azul, .Contacto-Info .Derecha .Card .Header .Item .Azul {
+  color: #2e6dbf;
+}
+.Contacto-Info .Izquierda .Card .Header .Item .Verde, .Contacto-Info .Derecha .Card .Header .Item .Verde {
+  color: #32bf84;
+}
+.Contacto-Info .Izquierda .Card .Header .Item .Amarillo, .Contacto-Info .Derecha .Card .Header .Item .Amarillo {
+  color: #f9c11f;
+}
+.Contacto-Info .Izquierda .Card .Header .Item .Rojo, .Contacto-Info .Derecha .Card .Header .Item .Rojo {
+  color: #cb3e49;
+}
+
 /*# sourceMappingURL=Contacto.css.map */
