@@ -38,6 +38,7 @@
   padding: 25px 50px;
 }
 .Servicios .Servicios-Contenido .Bloque .Bloque-Title {
+  text-align: center;
   font-size: 36px;
 }
 .Servicios .Servicios-Contenido .Bloque .Bloque-Title.Rojo {
