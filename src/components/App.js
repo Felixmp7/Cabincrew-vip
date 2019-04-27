@@ -5,7 +5,7 @@ import Navbar from './navbar/Navbar'
 import Home from './home/Home'
 import Nosotros from './nosotros/Nosotros'
 import Servicios from './servicios/Servicios'
-import Contacto from './contacto/Contacto '
+import Contacto from './contacto/Contacto'
 
 const enlaces = [
   'Home',
