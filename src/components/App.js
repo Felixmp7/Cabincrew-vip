@@ -22,9 +22,9 @@ class App extends Component {
           <Switch>
             <Route exact path="/" component={Home}/>
             <Route exact path="/nosotros" component={Nosotros}/>
-            {/* <Route exact path="/servicios" component={Servicios}/>
-            <Route exact path="/galeria" component={Galeria}/>
-            <Route exact path="/contacto" component={Contacto}/> */}
+            <Route exact path="/servicios" component={Servicios}/>
+            {/* <Route exact path="/galeria" component={Galeria}/> */}
+            {/* <Route exact path="/contacto" component={Contacto}/> */}
           </Switch>
         </BrowserRouter>
       </div>
