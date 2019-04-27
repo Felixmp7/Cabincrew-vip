@@ -26,6 +26,10 @@ const Servicios = () => {
               Quis nesciunt eaque eligendi consectetur nulla dolorum quas,
               id consequuntur laborum, aperiam! Dolorem ea error ipsa exercitationem amet,
               id, sed suscipit officiis!
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+              Quis nesciunt eaque eligendi consectetur nulla dolorum quas,
+              id consequuntur laborum, aperiam! Dolorem ea error ipsa exercitationem amet,
+              id, sed suscipit officiis!
             </p>
         </div>
         <div className="Bloque">
@@ -37,6 +41,10 @@ const Servicios = () => {
             Quis nesciunt eaque eligendi consectetur nulla dolorum quas,
             id consequuntur laborum, aperiam! Dolorem ea error ipsa exercitationem amet,
             id, sed suscipit officiis!
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+            Quis nesciunt eaque eligendi consectetur nulla dolorum quas,
+            id consequuntur laborum, aperiam! Dolorem ea error ipsa exercitationem amet,
+            id, sed suscipit officiis!
           </p>
         </div>
         <div className="Bloque">
@@ -44,6 +52,10 @@ const Servicios = () => {
             Requisitos
           </h4>
           <p>
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+            Quis nesciunt eaque eligendi consectetur nulla dolorum quas,
+            id consequuntur laborum, aperiam! Dolorem ea error ipsa exercitationem amet,
+            id, sed suscipit officiis!
             Lorem ipsum dolor sit amet, consectetur adipisicing elit.
             Quis nesciunt eaque eligendi consectetur nulla dolorum quas,
             id consequuntur laborum, aperiam! Dolorem ea error ipsa exercitationem amet,
