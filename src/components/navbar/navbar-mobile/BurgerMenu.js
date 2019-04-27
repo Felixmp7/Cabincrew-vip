@@ -133,15 +133,15 @@ class BurgerMenu extends React.Component {
               </ListItem>
 
               <ListItem button>
-                <ListItemText primary={'Servicios'} onClick={this.handleDrawerClose} />
+                <Link to="/servicios"><ListItemText primary={'Servicios'} onClick={this.handleDrawerClose} /></Link>
               </ListItem>
 
               <ListItem button>
-                <ListItemText primary={'Galeria'} onClick={this.handleDrawerClose} />
+                <Link to="/galeria"><ListItemText primary={'Galeria'} onClick={this.handleDrawerClose} /></Link>
               </ListItem>
 
               <ListItem button>
-                <ListItemText primary={'Contacto'} onClick={this.handleDrawerClose} />
+                <Link to="/contacto"><ListItemText primary={'Contacto'} onClick={this.handleDrawerClose} /></Link>
               </ListItem>
           </List>
         </Drawer>
