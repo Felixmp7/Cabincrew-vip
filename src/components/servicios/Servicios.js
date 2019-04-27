@@ -1,6 +1,8 @@
 import React from 'react'
+import '../../styles/servicios/Servicios.css'
+import background from '../../media/servicio/estudiantes.jpg'
 
-const Servicios = props => {
+const Servicios = () => {
   return (
     <div className="Servicios">
       <div className="Servicios-Header">
@@ -11,11 +13,11 @@ const Servicios = props => {
         </h3>
       </div>
       <div className="Servicios-Image">
-        <img src={props.image} alt="bg"/>
+        <img src={background} alt="bg"/>
       </div>
       <div className="Servicios-Contenido">
-          <div className="Bloque Rojo">
-            <h4 className="Bloque-Title">
+          <div className="Bloque">
+            <h4 className="Bloque-Title Rojo">
               ¿Para quién está dirigido?
             </h4>
             <p>
@@ -25,8 +27,8 @@ const Servicios = props => {
               id, sed suscipit officiis!
             </p>
         </div>
-        <div className="Bloque Verde">
-          <h4 className="Bloque-Title">
+        <div className="Bloque">
+          <h4 className="Bloque-Title Verde">
             Tiempo total de estudio
           </h4>
           <p>
@@ -36,8 +38,8 @@ const Servicios = props => {
             id, sed suscipit officiis!
           </p>
         </div>
-        <div className="Bloque Azul">
-          <h4 className="Bloque-Title">
+        <div className="Bloque">
+          <h4 className="Bloque-Title Azul">
             Requisitos
           </h4>
           <p>
@@ -49,7 +51,7 @@ const Servicios = props => {
         </div>
       </div>
     </div>
-  );
+  )
 }
 
 export default Servicios

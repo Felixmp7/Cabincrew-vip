@@ -1,0 +1,48 @@
+.Servicios {
+  font-family: "Lato";
+  width: 100%;
+  position: relative;
+  top: 100px;
+}
+.Servicios .Servicios-Header {
+  width: 100%;
+  text-align: center;
+  padding: 10px;
+}
+.Servicios .Servicios-Header .Title {
+  font-size: 22px;
+  color: #2e2e2e;
+}
+.Servicios .Servicios-Header .Subtitle {
+  padding: 0 400px;
+  font-size: 46px;
+  color: #a41c28;
+  margin-top: 10px;
+}
+.Servicios .Servicios-Image {
+  width: 100%;
+}
+.Servicios .Servicios-Image img {
+  width: 100%;
+}
+.Servicios .Servicios-Contenido {
+  width: inherit;
+}
+.Servicios .Servicios-Contenido .Bloque {
+  width: 50%;
+  padding: 10px;
+}
+.Servicios .Servicios-Contenido .Bloque .Bloque-Title {
+  font-size: 22px;
+}
+.Servicios .Servicios-Contenido .Bloque .Bloque-Title.Rojo {
+  color: red;
+}
+.Servicios .Servicios-Contenido .Bloque .Bloque-Title.Verde {
+  color: green;
+}
+.Servicios .Servicios-Contenido .Bloque .Bloque-Title.Azul {
+  color: blue;
+}
+
+/*# sourceMappingURL=Servicios.css.map */
