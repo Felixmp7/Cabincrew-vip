@@ -4,6 +4,7 @@ import '../styles/app/App.css';
 import Navbar from './navbar/Navbar'
 import Home from './home/Home'
 import Nosotros from './nosotros/Nosotros'
+import Servicios from './servicios/Servicios'
 
 const enlaces = [
   'Home',
