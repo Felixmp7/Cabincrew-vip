@@ -79,7 +79,15 @@ const Contacto = () => (
 
       </div>
       <div className="Derecha">
-
+        <div className="Mapa">
+          <iframe
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d980.7127179795509!2d-66.88379054062618!3d10.51240970370405!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8c2a593e97a4d761%3A0x875fc90b36d3fe1f!2sFundaci%C3%B3n+La+Salle+de+Ciencias+Naturales!5e0!3m2!1ses-419!2sve!4v1556389072077!5m2!1ses-419!2sve"
+            frameBorder="0"
+            allowFullScreen
+            title="Cabin"
+          >
+          </iframe>
+        </div>
         <div className="Card">
           <div className="Header">
             <div className="Item">
