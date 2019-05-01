@@ -9,12 +9,23 @@ import '../../styles/navbar/Navbar.css'
 import BurgerMenu from './navbar-mobile/BurgerMenu'
 
 class Navbar extends Component {
+	setRef = element => {
+		this.menu = element
+		// console.log(this.menu)
+	}
+	setBackgroundColor = event =>{
+		this.menu.classList.add('background-dynamic')
+	}
+
+	setNormalBackgroundColor = event =>{
+		this.menu.classList.remove('background-dynamic')
+	}
 	render(){
 		if (isWidthUp('md', this.props.width)) {
 			return (
 				<div className="nav-position">
 					<div className="nav-cont">
-						<nav className="menu">
+						<nav className="menu" ref={this.setRef}>
 							<ul className="lista">
 							{/* {
 								this.props.enlaces.map((enlace, index) =>{
@@ -36,11 +47,11 @@ class Navbar extends Component {
 									}
 								})
 							} */}
-							<Link to="/">Home</Link>
-							<Link to="/nosotros">Nosotros</Link>
-							<Link to="/servicios">Servicios</Link>
-							<Link to="/galeria">Galeria</Link>
-							<Link to="/contacto">Contacto</Link>
+							<Link to="/" onClick={this.setNormalBackgroundColor}>Home</Link>
+							<Link to="/nosotros" onClick={this.setBackgroundColor}>Nosotros</Link>
+							<Link to="/servicios" onClick={this.setNormalBackgroundColor}>Servicios</Link>
+							<Link to="/galeria" onClick={this.setNormalBackgroundColor}>Galeria</Link>
+							<Link to="/contacto" onClick={this.setBackgroundColor}>Contacto</Link>
 							</ul>
 						</nav>
 					</div>

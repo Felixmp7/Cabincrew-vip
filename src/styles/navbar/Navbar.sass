@@ -4,8 +4,10 @@
 	top: 0
 	z-index: 3
 	.nav-cont
-		width: 480px
+		width: 500px
 		margin: 5px auto
+		border-radius: 40px
+		overflow: hidden
 		.menu
 			background-color: rgba(255,255,255, .6)
 			width: 100%
@@ -13,7 +15,7 @@
 			.lista
 				display: flex
 				flex-flow: row wrap
-				justify-content: space-around
+				justify-content: space-evenly
 				font-family: 'Comfortaa'
 				a
 					color: black
@@ -24,6 +26,5 @@
 						cursor: pointer
 					&:focus
 						background-color: rgba(1,1,1, .09)
-
-.background-dynamic
-	background-color: rgba(255,255,255, .9)
+		.background-dynamic
+			background-color: white

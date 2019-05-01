@@ -5,8 +5,10 @@
   z-index: 3;
 }
 .nav-position .nav-cont {
-  width: 480px;
+  width: 500px;
   margin: 5px auto;
+  border-radius: 40px;
+  overflow: hidden;
 }
 .nav-position .nav-cont .menu {
   background-color: rgba(255, 255, 255, 0.6);
@@ -16,7 +18,7 @@
 .nav-position .nav-cont .menu .lista {
   display: flex;
   flex-flow: row wrap;
-  justify-content: space-around;
+  justify-content: space-evenly;
   font-family: "Comfortaa";
 }
 .nav-position .nav-cont .menu .lista a {
@@ -31,9 +33,8 @@
 .nav-position .nav-cont .menu .lista a:focus {
   background-color: rgba(1, 1, 1, 0.09);
 }
-
-.background-dynamic {
-  background-color: rgba(255, 255, 255, 0.9);
+.nav-position .nav-cont .background-dynamic {
+  background-color: white;
 }
 
 /*# sourceMappingURL=Navbar.css.map */
