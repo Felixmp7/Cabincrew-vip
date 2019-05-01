@@ -16,7 +16,7 @@ class Navbar extends Component {
 					<div className="nav-cont">
 						<nav className="menu">
 							<ul className="lista">
-							{
+							{/* {
 								this.props.enlaces.map((enlace, index) =>{
 									if (index === 0) {
 										return(
@@ -35,7 +35,12 @@ class Navbar extends Component {
 											)
 									}
 								})
-							}
+							} */}
+							<Link to="/">Home</Link>
+							<Link to="/nosotros">Nosotros</Link>
+							<Link to="/servicios">Servicios</Link>
+							<Link to="/galeria">Galeria</Link>
+							<Link to="/contacto">Contacto</Link>
 							</ul>
 						</nav>
 					</div>

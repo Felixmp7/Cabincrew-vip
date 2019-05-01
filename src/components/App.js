@@ -7,20 +7,20 @@ import Nosotros from './nosotros/Nosotros'
 import Servicios from './servicios/Servicios'
 import Contacto from './contacto/Contacto'
 
-const enlaces = [
-  'Home',
-  'Nosotros',
-  'Servicios',
-  'Galeria',
-  'Contacto',
-]
+// const enlaces = [
+//   'Home',
+//   'Nosotros',
+//   'Servicios',
+//   'Galeria',
+//   'Contacto',
+// ]
 
 class App extends Component {
   render() {
     return (
       <div className="App">
   			<BrowserRouter>
-          <Navbar enlaces={enlaces} />
+          <Navbar/>
           <Switch>
             <Route exact path="/" component={Home}/>
             <Route exact path="/nosotros" component={Nosotros}/>
