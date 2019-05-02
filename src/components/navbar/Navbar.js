@@ -10,14 +10,15 @@ import BurgerMenu from './navbar-mobile/BurgerMenu'
 
 class Navbar extends Component {
 	setRef = element => {
-		if (element.className === 'menu') {
+		let clase = element.className
+		if (clase === 'menu') {
 			this.menu = element
-			console.log(element.className)
+			console.log(clase)
 		}
 
-		if (element.className === 'nav-cont') {
+		if (clase === 'nav-cont') {
 			this.nav = element
-			console.log(element.className)
+			console.log(clase)
 		}
 	}
 	setBackgroundColor = event =>{
@@ -39,23 +40,28 @@ class Navbar extends Component {
 							<Link
 								to="/"
 								onClick={this.setNormalBackgroundColor}
-							>Home</Link>
+							>Home
+							</Link>
 							<Link
 								to="/nosotros"
 								onClick={this.setBackgroundColor}
-							>Nosotros</Link>
+							>Nosotros
+							</Link>
 							<Link
 								to="/servicios"
 								onClick={this.setNormalBackgroundColor}
-							>Servicios</Link>
+							>Servicios
+							</Link>
 							<Link
 								to="/galeria"
 								onClick={this.setNormalBackgroundColor}
-							>Galeria</Link>
+							>Galeria
+							</Link>
 							<Link
 								to="/contacto"
 								onClick={this.setBackgroundColor}
-							>Contacto</Link>
+							>Contacto
+							</Link>
 							</ul>
 						</nav>
 					</div>
