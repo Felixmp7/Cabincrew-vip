@@ -116,9 +116,20 @@
   text-align: center;
 }
 
+@media screen and (max-width: 768px) {
+  .Contacto .Contacto-Info .Izquierda, .Contacto .Contacto-Info .Derecha {
+    width: 100%;
+  }
+}
 @media screen and (max-width: 425px) {
   .Contacto .Contacto-Header .Title h3 {
     font-size: 36px;
+  }
+  .Contacto .Contacto-Header .Form {
+    padding: 0;
+  }
+  .Contacto .Contacto-Header .Form form {
+    width: 100%;
   }
 }
 
