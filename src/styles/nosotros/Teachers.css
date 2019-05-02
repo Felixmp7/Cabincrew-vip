@@ -53,4 +53,16 @@
   color: white;
 }
 
+@media screen and (max-width: 425px) {
+  .Equipo {
+    padding: 10px;
+  }
+  .Equipo .Title-Container .Title {
+    font-size: 32px;
+  }
+  .Equipo .Title-Container p {
+    font-size: 16px;
+  }
+}
+
 /*# sourceMappingURL=Teachers.css.map */
