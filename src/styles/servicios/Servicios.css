@@ -78,6 +78,16 @@
     padding: 10px 25px;
     font-size: 26px;
   }
+  .Servicios .Servicios-Contenido {
+    flex-direction: column;
+  }
+  .Servicios .Servicios-Contenido .Bloque {
+    width: 100%;
+    text-align: justify;
+  }
+  .Servicios .Servicios-Contenido .Bloque p {
+    font-size: 18px;
+  }
 }
 
 /*# sourceMappingURL=Servicios.css.map */
