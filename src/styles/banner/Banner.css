@@ -84,6 +84,15 @@
     height: 30px;
     font-size: 14px;
   }
+
+  .BannerNosotros {
+    height: 120px;
+    position: relative;
+    top: 50px;
+  }
+  .BannerNosotros .container {
+    margin: auto;
+  }
 }
 
 /*# sourceMappingURL=Banner.css.map */
