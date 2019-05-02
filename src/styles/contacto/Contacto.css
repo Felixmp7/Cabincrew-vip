@@ -120,6 +120,9 @@
   .Contacto .Contacto-Info .Izquierda, .Contacto .Contacto-Info .Derecha {
     width: 100%;
   }
+  .Contacto .Contacto-Footer {
+    padding-bottom: 50px;
+  }
 }
 @media screen and (max-width: 425px) {
   .Contacto .Contacto-Header .Title h3 {
@@ -130,6 +133,15 @@
   }
   .Contacto .Contacto-Header .Form form {
     width: 100%;
+  }
+  .Contacto .Contacto-Info .Card > p {
+    padding: 0;
+  }
+  .Contacto .Contacto-Info .Card .Header {
+    margin-bottom: 30px;
+  }
+  .Contacto .Contacto-Info .Card .Header p {
+    margin: 0;
   }
 }
 
