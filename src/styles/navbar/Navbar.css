@@ -5,8 +5,8 @@
   z-index: 3;
 }
 .nav-position .nav-cont {
-  width: 400px;
-  margin: 10px auto 5px;
+  width: 450px;
+  margin: 10px auto;
   border-radius: 40px;
   overflow: hidden;
   border: 2px solid rgba(255, 255, 255, 0.5);
