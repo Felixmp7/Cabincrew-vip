@@ -2,7 +2,7 @@
   font-family: "Lato";
   width: 100%;
   position: relative;
-  top: 100px;
+  top: 56px;
 }
 .Servicios .Servicios-Header {
   width: 100%;
@@ -56,6 +56,12 @@
 }
 .Servicios .Servicios-Contenido .Bloque-Imagen img {
   width: 70%;
+}
+
+@media screen and (max-width: 1440px) {
+  .Servicios .Servicios-Header .Subtitle {
+    padding: 0 250px;
+  }
 }
 
 /*# sourceMappingURL=Servicios.css.map */
