@@ -1,4 +1,5 @@
 import React, {Component} from 'react'
+import { animateScroll as scroll} from 'react-scroll'
 //CSS
 import '../../styles/home/Home-Container.css'
 //Components
@@ -12,7 +13,18 @@ import p1 from '../../media/1-Persona.png'
 import p2 from '../../media/2-Persona.png'
 import p3 from '../../media/3-Persona.png'
 
+const scrollType = {
+	duration: 300,
+	delay: 20,
+	smooth: true, // linear “easeInQuint” “easeOutCubic”
+	offset: -10,
+}
+
 class Home extends Component{
+  constructor(props){
+    super(props)
+    scroll.scrollToTop(scrollType)
+  }
   state = {
     teachers: [
       {
