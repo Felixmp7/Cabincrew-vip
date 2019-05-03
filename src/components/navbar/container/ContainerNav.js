@@ -13,12 +13,10 @@ class ContainerNav extends Component {
 		let clase = element.className
 		if (clase === 'menu') {
 			this.menu = element
-			console.log(clase)
 		}
 
 		if (clase === 'nav-cont') {
 			this.nav = element
-			console.log(clase)
 		}
 	}
 	setBackgroundColor = event =>{
