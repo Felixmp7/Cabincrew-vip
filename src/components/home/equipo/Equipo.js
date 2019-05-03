@@ -1,4 +1,5 @@
 import React, {Component} from 'react'
+import {Link} from 'react-router-dom'
 import plain from '../../../media/Inicio/2-Avion.jpg'
 import '../../../styles/home/equipo/Equipo.css'
 
@@ -32,7 +33,7 @@ class Equipo extends Component{
           </p>
         </div>
         <div className="cont-Button">
-          <button>Conócenos</button>
+          <button><Link to="/nosotros">Conócenos</Link></button>
         </div>
         <div className="imageBG">
           <img src={plain} alt="plain"/>
