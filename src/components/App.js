@@ -1,19 +1,11 @@
 import React, { Component } from 'react';
 import {BrowserRouter, Route, Switch} from 'react-router-dom'
 import '../styles/app/App.css';
-import Navbar from './navbar/Navbar'
+import Navbar from './navbar/container/ContainerNav'
 import Home from './home/Home'
 import Nosotros from './nosotros/Nosotros'
 import Servicios from './servicios/Servicios'
 import Contacto from './contacto/Contacto'
-
-// const enlaces = [
-//   'Home',
-//   'Nosotros',
-//   'Servicios',
-//   'Galeria',
-//   'Contacto',
-// ]
 
 class App extends Component {
   render() {
