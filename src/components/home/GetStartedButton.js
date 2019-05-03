@@ -13,7 +13,12 @@ const scrollType = {
 
 class GetStartedButton extends React.Component {
 	getStartedScroll = e => {
-		scroll.scrollTo(772, scrollType)
+		let tamañoDePantalla = window.innerWidth
+		if (tamañoDePantalla >= 500) {
+			scroll.scrollTo(772, scrollType)
+		} else {
+			scroll.scrollTo(665, scrollType)
+		}
 	}
 	render(){
 		return (
