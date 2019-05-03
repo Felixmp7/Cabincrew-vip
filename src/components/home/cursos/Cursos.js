@@ -1,4 +1,5 @@
 import React from 'react'
+import {Link} from 'react-router-dom'
 import cursos from '../../../media/Inicio/curso.jpg'
 import '../../../styles/home/cursos/Cursos.css'
 
@@ -15,7 +16,7 @@ const Cursos = () => (
         para alcanzar los fines y objetivos de le Empresa.
       </p>
       <div className="cont-Button">
-        <button>Mas info</button>
+        <button><Link to="/servicios">Mas info</Link></button>
       </div>
     </div>
   </div>
