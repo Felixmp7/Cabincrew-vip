@@ -1,4 +1,5 @@
 import React from 'react'
+import {Link} from 'react-router-dom'
 import '../../styles/banner/Banner.css'
 
 const Banner = props => (
@@ -11,7 +12,7 @@ const Banner = props => (
       {
         props.titleButton &&
         <div className="cont-Button">
-          <button>{props.titleButton}</button>
+          <button><Link to="/nosotros">{props.titleButton}</Link></button>
         </div>
       }
     </div>
