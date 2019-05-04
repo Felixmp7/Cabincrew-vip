@@ -19,6 +19,9 @@ class Contacto extends React.Component {
     super(props)
     scroll.scrollToTop(scrollType)
   }
+	detenerPeticion = (event) =>{
+		event.preventDefault(event)
+	}
   render(){
     return(
       <div className="Contacto">
@@ -43,7 +46,12 @@ class Contacto extends React.Component {
               <input type="text" placeholder="Numero de Teléfono" />
               <input type="text" placeholder="Escribe tu solicitud" />
 							<div className="Button-Position">
-								<button className="btn waves-effect amber darken-3" type="submit" name="action">Enviar
+								<button
+									className="btn waves-effect amber darken-3"
+									type="submit" name="action"
+									onClick={this.detenerPeticion}
+									>
+										Enviar
 	    						<i className="material-icons right">send</i>
 	  						</button>
 							</div>
