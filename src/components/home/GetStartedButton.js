@@ -17,7 +17,7 @@ class GetStartedButton extends React.Component {
 		if (tamañoDePantalla >= 500) {
 			scroll.scrollTo(772, scrollType)
 		} else {
-			scroll.scrollTo(665, scrollType)
+			scroll.scrollTo(626, scrollType)
 		}
 	}
 	render(){

@@ -10,7 +10,7 @@ import BurgerMenu from '../components/BurgerMenu'
 
 class ContainerNav extends Component {
 	setRef = element => {
-		let clase = element.className
+		const clase = element.className
 		if (clase === 'menu') {
 			this.menu = element
 		}
@@ -40,9 +40,7 @@ class ContainerNav extends Component {
 		}
 
 		return(
-			<div className="Mobile">
-				<BurgerMenu />
-			</div>
+			<BurgerMenu />
 		);
 	}
 }
