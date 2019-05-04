@@ -42,6 +42,11 @@ class Contacto extends React.Component {
               <input type="email" placeholder="Correo Electrónico" />
               <input type="text" placeholder="Numero de Teléfono" />
               <input type="text" placeholder="Escribe tu solicitud" />
+							<div className="Button-Position">
+								<button className="btn waves-effect amber darken-3" type="submit" name="action">Enviar
+	    						<i className="material-icons right">send</i>
+	  						</button>
+							</div>
             </form>
           </div>
         </div>
