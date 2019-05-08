@@ -58,6 +58,9 @@
   border-radius: 5px;
   font-size: 18px;
 }
+.Equipo .cont-Button button a {
+  color: white;
+}
 .Equipo .cont-Button button:hover {
   cursor: pointer;
 }
