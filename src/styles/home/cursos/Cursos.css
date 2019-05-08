@@ -44,6 +44,9 @@
   border-radius: 0 10px 0 10px;
   transition: background-color 1s;
 }
+.Curso .info .cont-Button button a {
+  color: white;
+}
 .Curso .info .cont-Button button:hover {
   cursor: pointer;
   background-color: #5e1014;
