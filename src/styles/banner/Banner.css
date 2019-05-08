@@ -38,6 +38,9 @@
   border-radius: 5px;
   transition: 0.7s;
 }
+.Banner .container .cont-Button button a {
+  color: #5d1014;
+}
 .Banner .container .cont-Button button:hover {
   cursor: pointer;
   background-color: white;
