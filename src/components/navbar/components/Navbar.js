@@ -6,8 +6,8 @@ import '../../../styles/navbar/Navbar.css'
 const Navbar = props => {
   return (
     <div className="nav-position">
-      <div className="nav-cont" ref={props.setRef}>
-        <nav className="menu" ref={props.setRef}>
+      <div className="nav-cont" ref={props.setRefNav}>
+        <nav className="menu" ref={props.setRefMenu}>
           <ul className="lista">
           <Link
             to="/"

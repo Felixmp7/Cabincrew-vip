@@ -8,15 +8,23 @@ import '../../../styles/navbar/Navbar.css'
 import Navbar from '../components/Navbar'
 import BurgerMenu from '../components/BurgerMenu'
 
-class ContainerNav extends Component {
-	setRef = element => {
-		const clase = element.className
-		if (clase === 'menu') {
-			this.menu = element
-		}
+const alto = window.innerWidth
+const ancho = window.innerHeight
 
-		if (clase === 'nav-cont') {
-			this.nav = element
+class ContainerNav extends Component {
+	setRefMenu = element => {
+		if (alto >= 993 || ancho >= 993) {
+			// console.log(element.classList);
+			// var clase = element.classList.value
+				this.menu = element
+		}
+	}
+
+	setRefNav = element => {
+		if (alto >= 993 || ancho >= 993) {
+			// console.log(element.classList);
+			// var clase = element.classList.value
+				this.nav = element
 		}
 	}
 	setBackgroundColor = event =>{
@@ -32,7 +40,8 @@ class ContainerNav extends Component {
 		if (isWidthUp('md', this.props.width)) {
 			return (
 				<Navbar
-					setRef={this.setRef}
+					setRefMenu={this.setRefMenu}
+					setRefNav={this.setRefNav}
 					setBackgroundColor={this.setBackgroundColor}
 					setNormalBackgroundColor={this.setNormalBackgroundColor}
 				/>
