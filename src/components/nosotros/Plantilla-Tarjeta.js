@@ -41,6 +41,9 @@ const styles = theme => ({
   cardTitle: {
     fontSize: 22,
     fontWeight: 'lighter',
+    '@media screen and (max-width: 650px)': {
+      fontWeight: 'normal'
+    }
   },
   contenido: {
     backgroundColor: '#f0f0f0',
