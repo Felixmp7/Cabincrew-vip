@@ -123,7 +123,6 @@ class Contacto extends React.Component {
                   <p className="Rojo">Redes Sociales</p>
                 </div>
               </div>
-              <p>Icons</p>
             </div>
           </div>
         </div>
