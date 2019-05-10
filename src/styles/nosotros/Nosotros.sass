@@ -1,6 +1,9 @@
 .cont-nosotros
 	width: 100%
 	padding-bottom: 5px
+	// background-image: url('../../media/Inicio/1.jpg')
+	// background-size: 100%
+	// background-repeat: no-repeat
 	.cont-columnas
 		margin: 100px 0
 		.cont
@@ -12,9 +15,22 @@
 				width: 50%
 				min-width: 300px
 				margin-bottom: 50px
+			.cont-tarjeta.left
+				margin-left: 20%
+			.cont-tarjeta.right
+				margin-right: 20%
 
 @media screen and (max-width: 425px)
 	.cont-nosotros
 		.cont-columnas
 			margin-top: 100px
 			margin-bottom: 0
+
+@media screen and (max-width: 650px)
+	.cont-nosotros
+		.cont-columnas
+			.cont
+				.cont-tarjeta.left
+					margin-left: 0
+				.cont-tarjeta.right
+					margin-right: 0

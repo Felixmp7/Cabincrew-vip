@@ -16,11 +16,25 @@
   min-width: 300px;
   margin-bottom: 50px;
 }
+.cont-nosotros .cont-columnas .cont .cont-tarjeta.left {
+  margin-left: 20%;
+}
+.cont-nosotros .cont-columnas .cont .cont-tarjeta.right {
+  margin-right: 20%;
+}
 
 @media screen and (max-width: 425px) {
   .cont-nosotros .cont-columnas {
     margin-top: 100px;
     margin-bottom: 0;
+  }
+}
+@media screen and (max-width: 650px) {
+  .cont-nosotros .cont-columnas .cont .cont-tarjeta.left {
+    margin-left: 0;
+  }
+  .cont-nosotros .cont-columnas .cont .cont-tarjeta.right {
+    margin-right: 0;
   }
 }
 

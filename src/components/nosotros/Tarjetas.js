@@ -12,16 +12,16 @@ import metas from '../../media/Nosotros/iconos/metas.png'
 const Tarjetas = () => {
   return (
     <div className="cont">
-      <div className="cont-tarjeta">
+      <div className="cont-tarjeta left">
         <Tarjeta
-          title="Mision"
+          title="Misión"
           image={mision}
           color="#f4c138"
           border={'2px solid'}
         />
       </div>
 
-      <div className="cont-tarjeta">
+      <div className="cont-tarjeta right">
         <Tarjeta
           title="Objetivos"
           image={objetivos}
@@ -30,7 +30,7 @@ const Tarjetas = () => {
         />
       </div>
 
-      <div className="cont-tarjeta">
+      <div className="cont-tarjeta left">
         <Tarjeta
           title="Estrategia"
           image={estrategia}
@@ -39,7 +39,7 @@ const Tarjetas = () => {
         />
       </div>
 
-      <div className="cont-tarjeta">
+      <div className="cont-tarjeta right">
         <Tarjeta
           title="Metas"
           image={metas}
