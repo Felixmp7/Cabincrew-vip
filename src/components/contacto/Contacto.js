@@ -124,9 +124,9 @@ class Contacto extends React.Component {
                 </div>
               </div>
 							<div className="Redes">
-								<i className="fab fa-facebook-f"></i>
-								<i className="fab fa-twitter"></i>
-								<i className="fab fa-instagram"></i>
+								<a href="https://www.facebook.com/cabincrewvip/"><i className="fab fa-facebook-f"></i></a>
+								<a href="https://twitter.com/cabincrewtr"><i className="fab fa-twitter"></i></a>
+								<a href="https://www.instagram.com/cabincrewvip/"><i className="fab fa-instagram"></i></a>
 							</div>
             </div>
           </div>
