@@ -123,6 +123,9 @@ class Contacto extends React.Component {
                   <p className="Rojo">Redes Sociales</p>
                 </div>
               </div>
+							<div className="Redes">
+								<i className="fab fa-facebook-f"></i>
+							</div>
             </div>
           </div>
         </div>
