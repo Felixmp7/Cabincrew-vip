@@ -12,16 +12,12 @@ const ancho = window.innerHeight
 class ContainerNav extends Component {
 	setRefMenu = element => {
 		if (alto >= 993 || ancho >= 993) {
-			// console.log(element.classList);
-			// var clase = element.classList.value
 				this.menu = element
 		}
 	}
 
 	setRefNav = element => {
 		if (alto >= 993 || ancho >= 993) {
-			// console.log(element.classList);
-			// var clase = element.classList.value
 				this.nav = element
 		}
 	}
