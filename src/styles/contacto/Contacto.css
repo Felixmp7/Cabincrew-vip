@@ -114,6 +114,7 @@
 .Contacto-Info .Izquierda .Card .Redes .fa-facebook-f, .Contacto-Info .Derecha .Card .Redes .fa-facebook-f {
   color: #3b5998;
   padding: 5px;
+  border-bottom: 2px solid transparent;
 }
 .Contacto-Info .Izquierda .Card .Redes .fa-facebook-f:hover, .Contacto-Info .Derecha .Card .Redes .fa-facebook-f:hover {
   transition: 0.3s ease;
@@ -122,6 +123,7 @@
 .Contacto-Info .Izquierda .Card .Redes .fa-twitter, .Contacto-Info .Derecha .Card .Redes .fa-twitter {
   color: #00acee;
   padding: 5px;
+  border-bottom: 2px solid transparent;
 }
 .Contacto-Info .Izquierda .Card .Redes .fa-twitter:hover, .Contacto-Info .Derecha .Card .Redes .fa-twitter:hover {
   transition: 0.3s ease;
@@ -130,10 +132,14 @@
 .Contacto-Info .Izquierda .Card .Redes .fa-instagram, .Contacto-Info .Derecha .Card .Redes .fa-instagram {
   color: black;
   padding: 5px;
+  border-bottom: 2px solid transparent;
 }
 .Contacto-Info .Izquierda .Card .Redes .fa-instagram:hover, .Contacto-Info .Derecha .Card .Redes .fa-instagram:hover {
   transition: 0.3s ease;
   border-bottom: 2px solid black;
+}
+.Contacto-Info .Izquierda .Card {
+  margin: 55px auto;
 }
 
 .Mapa {
