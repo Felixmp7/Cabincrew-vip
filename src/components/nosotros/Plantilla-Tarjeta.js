@@ -53,6 +53,9 @@ const styles = theme => ({
     transition: theme.transitions.create('transform', {
       duration: theme.transitions.duration.shortest,
     }),
+    '&&:focus':{
+      backgroundColor: 'transparent'
+    },
   },
   expandOpen: {
     transform: 'rotate(180deg)',
