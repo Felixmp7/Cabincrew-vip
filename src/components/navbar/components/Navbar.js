@@ -1,5 +1,5 @@
 import React from 'react'
-import {Link} from 'react-router-dom'
+import {NavLink} from 'react-router-dom'
 import 'materialize-css/dist/css/materialize.min.css'
 import '../../../styles/navbar/Navbar.css'
 
@@ -9,11 +9,36 @@ const Navbar = props => {
       <div className="nav-cont" ref={props.setRefNav}>
         <nav className="menu" ref={props.setRefMenu}>
           <ul className="lista">
-            <Link to="/" onClick={props.setNormalBackgroundColor}>Home</Link>
-            <Link to="/nosotros" onClick={props.setBackgroundColor}>Nosotros</Link>
-            <Link to="/servicios" onClick={props.setNormalBackgroundColor}>Servicios</Link>
-            <Link to="/galeria" onClick={props.setNormalBackgroundColor}>Galeria</Link>
-            <Link to="/contacto" onClick={props.setBackgroundColor}>Contacto</Link>
+            <NavLink
+              exact to="/"
+              onClick={props.setNormalBackgroundColor}
+              activeClassName="isActive"
+              >Home
+            </NavLink>
+            <NavLink
+              to="/nosotros"
+              onClick={props.setBackgroundColor}
+              activeClassName="isActive"
+              >Nosotros
+            </NavLink>
+            <NavLink
+              to="/servicios"
+              onClick={props.setNormalBackgroundColor}
+              activeClassName="isActive"
+              >Servicios
+            </NavLink>
+            <NavLink
+              to="/galeria"
+              onClick={props.setNormalBackgroundColor}
+              activeClassName="isActive"
+              >Galeria
+            </NavLink>
+            <NavLink
+              to="/contacto"
+              onClick={props.setBackgroundColor}
+              activeClassName="isActive"
+              >Contacto
+            </NavLink>
           </ul>
         </nav>
       </div>

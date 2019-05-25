@@ -31,9 +31,6 @@
   background-color: rgba(1, 1, 1, 0.05);
   cursor: pointer;
 }
-.nav-position .nav-cont .menu .lista a:focus {
-  background-color: rgba(1, 1, 1, 0.09);
-}
 .nav-position .nav-cont .background-dynamic {
   background-color: transparent;
 }
@@ -43,6 +40,10 @@
 }
 .nav-position .border-dynamic {
   border: none;
+}
+
+.isActive {
+  background-color: rgba(1, 1, 1, 0.09);
 }
 
 /*# sourceMappingURL=Navbar.css.map */
