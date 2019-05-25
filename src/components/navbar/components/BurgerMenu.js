@@ -44,6 +44,9 @@ const styles = theme => ({
   menuButton: {
     marginLeft: 12,
     marginRight: 20,
+    '&&:focus':{
+      background: 'none'
+    },
   },
   hide: {
     display: 'none',
