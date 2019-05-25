@@ -54,7 +54,7 @@ const styles = theme => ({
       duration: theme.transitions.duration.shortest,
     }),
     '&&:focus':{
-      backgroundColor: 'transparent'
+      background: 'none'
     },
   },
   expandOpen: {
