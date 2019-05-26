@@ -46,24 +46,24 @@ class Servicios extends React.Component{
             <h4 className="Bloque-Title Verde">
               Horarios
             </h4>
-						<p className="Horarios">CURSO MATUTINO
-						09:00 AM A 01:00 PM</p>
-						<p className="Horarios">CURSO INTENSIVO
-						09:00 AM A 05:00 PM</p>
-						<p className="Horarios">VESPERTINO
-						02:00 PM A 06:00 PM</p>
-						<p className="Horarios">NOCTURNO
-						06:00 PM A 08:00 PM</p>
-						<p className="Horarios">SABATINO
-						09:00 AM A 05:00 PM</p>
+						<div className="Horarios-container">
+							<p className="Horarios"><span>CURSO MATUTINO</span> <br/>
+							09:00 AM <br/> A <br/> 01:00 PM</p>
+							<p className="Horarios"><span>CURSO INTENSIVO</span><br/>
+							09:00 AM <br/> A <br/> 05:00 PM</p>
+							<p className="Horarios"><span>VESPERTINO</span><br/>
+							02:00 PM <br/> A <br/> 06:00 PM</p>
+							<p className="Horarios"><span>SABATINO</span><br/>
+							09:00 AM <br/> A <br/> 05:00 PM</p>
+						</div>
           </div>
           <div className="Bloque">
             <h4 className="Bloque-Title Azul">
               Requisitos
             </h4>
 						<ul className="Requisitos">
-							<li>Edad mínima: 18 años. Menores de 18 años solo con autorización
-								de sus padres o representantes legales.</li>
+								<li>Edad mínima: 18 años. Menores de 18 años solo con autorización
+									de sus padres o representantes legales.</li>
 								<li>Copia título de Bachiller. (Haber completado la educación secundaria).</li>
 								<li>3 Fotos tipo Carnet (Actualizada).</li>
 								<li>Copia de la C.I (Ampliada).</li>

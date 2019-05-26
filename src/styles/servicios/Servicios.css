@@ -38,6 +38,23 @@
   width: 50%;
   padding: 25px 50px;
 }
+.Servicios .Servicios-Contenido .Bloque .Horarios-container {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-evenly;
+}
+.Servicios .Servicios-Contenido .Bloque .Horarios-container .Horarios {
+  text-align: center;
+}
+.Servicios .Servicios-Contenido .Bloque .Horarios-container .Horarios span {
+  font-size: 18px;
+  color: darkred;
+  display: inline-block;
+  border-bottom: 1px solid darkgray;
+  border-right: 1px solid darkgray;
+  padding: 5px 15px;
+  margin-bottom: 5px;
+}
 .Servicios .Servicios-Contenido .Bloque .Bloque-Title {
   text-align: center;
   font-size: 36px;
@@ -50,6 +67,9 @@
 }
 .Servicios .Servicios-Contenido .Bloque .Bloque-Title.Azul {
   color: #476dbb;
+}
+.Servicios .Servicios-Contenido .Bloque .Requisitos li {
+  list-style-type: circle;
 }
 .Servicios .Servicios-Contenido .Bloque-Imagen {
   width: 50%;

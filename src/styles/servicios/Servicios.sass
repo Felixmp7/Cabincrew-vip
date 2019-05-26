@@ -32,6 +32,22 @@
     .Bloque
       width: 50%
       padding: 25px 50px
+      .Horarios-container
+        display: flex
+        flex-flow: row wrap
+        justify-content: space-evenly
+        .Horarios
+          text-align: center
+          // padding: 0px 20px
+          span
+            font-size: 18px
+            color: darkred
+            display: inline-block
+            border-bottom: 1px solid darkgray
+            border-right: 1px solid darkgray
+            // border-left: 2px solid darkgray
+            padding: 5px 15px
+            margin-bottom: 5px
       .Bloque-Title
         text-align: center
         font-size: 36px
@@ -41,6 +57,9 @@
         color: #4daf6b
       .Bloque-Title.Azul
         color: #476dbb
+      .Requisitos
+        li
+          list-style-type: circle
     .Bloque-Imagen
       width: 50%
       text-align: center
