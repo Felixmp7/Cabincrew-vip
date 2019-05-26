@@ -35,45 +35,40 @@ class Servicios extends React.Component{
                 ¿Para quién está dirigido?
               </h4>
               <p>
-                Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-                Quis nesciunt eaque eligendi consectetur nulla dolorum quas,
-                id consequuntur laborum, aperiam! Dolorem ea error ipsa exercitationem amet,
-                id, sed suscipit officiis!
-                Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-                Quis nesciunt eaque eligendi consectetur nulla dolorum quas,
-                id consequuntur laborum, aperiam! Dolorem ea error ipsa exercitationem amet,
-                id, sed suscipit officiis!
+                Dirigido a personas que hayan completado el ciclo de Educación
+								Secundaria con vocación por la Aviación y deseen Integrarse a
+								las Operaciones de una empresa de Aviación Ejecutiva o Línea
+								Aérea como parte de la Tripulación de Vuelo en calidad de
+								Tripulante de Cabina.
               </p>
           </div>
           <div className="Bloque">
             <h4 className="Bloque-Title Verde">
-              Tiempo total de estudio
+              Horarios
             </h4>
-            <p>
-              Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-              Quis nesciunt eaque eligendi consectetur nulla dolorum quas,
-              id consequuntur laborum, aperiam! Dolorem ea error ipsa exercitationem amet,
-              id, sed suscipit officiis!
-              Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-              Quis nesciunt eaque eligendi consectetur nulla dolorum quas,
-              id consequuntur laborum, aperiam! Dolorem ea error ipsa exercitationem amet,
-              id, sed suscipit officiis!
-            </p>
+						<p className="Horarios">CURSO MATUTINO
+						09:00 AM A 01:00 PM</p>
+						<p className="Horarios">CURSO INTENSIVO
+						09:00 AM A 05:00 PM</p>
+						<p className="Horarios">VESPERTINO
+						02:00 PM A 06:00 PM</p>
+						<p className="Horarios">NOCTURNO
+						06:00 PM A 08:00 PM</p>
+						<p className="Horarios">SABATINO
+						09:00 AM A 05:00 PM</p>
           </div>
           <div className="Bloque">
             <h4 className="Bloque-Title Azul">
               Requisitos
             </h4>
-            <p>
-              Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-              Quis nesciunt eaque eligendi consectetur nulla dolorum quas,
-              id consequuntur laborum, aperiam! Dolorem ea error ipsa exercitationem amet,
-              id, sed suscipit officiis!
-              Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-              Quis nesciunt eaque eligendi consectetur nulla dolorum quas,
-              id consequuntur laborum, aperiam! Dolorem ea error ipsa exercitationem amet,
-              id, sed suscipit officiis!
-            </p>
+						<ul className="Requisitos">
+							<li>Edad mínima: 18 años. Menores de 18 años solo con autorización
+								de sus padres o representantes legales.</li>
+								<li>Copia título de Bachiller. (Haber completado la educación secundaria).</li>
+								<li>3 Fotos tipo Carnet (Actualizada).</li>
+								<li>Copia de la C.I (Ampliada).</li>
+								<li>Síntesis Curricular y Certificado de Salud.</li>
+						</ul>
           </div>
           <div className="Bloque-Imagen">
             <img src={libros} alt="curso-libros"/>
