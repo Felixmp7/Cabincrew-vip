@@ -10,11 +10,14 @@
   top: 150px;
 }
 .Container .Cont-Imagen {
+  border-radius: 50px;
+  overflow: hidden;
   width: 30%;
-  padding-bottom: 20px;
+  margin-bottom: 20px;
 }
 .Container .Cont-Imagen .Imagen {
   width: 100%;
+  vertical-align: top;
 }
 
 /*# sourceMappingURL=Galeria.css.map */
