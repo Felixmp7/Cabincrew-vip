@@ -34,5 +34,5 @@ export const data = [
     {image: p13},
     {image: p14},
     {image: p15},
-    {image: p16},
+    {image: p16}
 ]
